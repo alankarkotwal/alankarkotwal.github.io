@@ -15,10 +15,12 @@ $ ./model
 The models we're submitting are in the `models/` directory. To load a model, press `L` on the GLFW window and type the name of the model you want to load. The models we're submitting are
 
  - mac2
- - table
+ - table2
  - tubelight2
 
 To load `mac2` press `L` and type `mac2` on the terminal window and press `Enter`. The program will add the directory name and extension by itself.
+
+The original versions of these models can be found in the `mac`, `table`, and `tubelight` models. They were rotated using this modeling program (see the `T` control). There additionally are many example models of shapes in the models folder.
 
 ##### Controls
 
@@ -37,6 +39,7 @@ The inspection mode controls are as follows:
  - `Tab` changes the currently active (displayed) model.
  - `V` toggles pesudo-lighting.
  - `+` and `-` increase/decrease the lighting intensity.
+ - `T` flushes the transformation onto the model itself. In other words, the current transformation is applied to the model, and is then set to the identity transform. Using this, one can load a model, rotate it, flush the rotation to the model, and save the rotated model. (This was used to create `mac2` from `mac`, etc.)
 
 ###### Modeling mode:
 In addition to the controls in the inspection mode, we have the following controls in the modeling mode:
@@ -45,6 +48,7 @@ In addition to the controls in the inspection mode, we have the following contro
  - Scrolling adjusts the active z-coordinate so that we're able to draw in 3D.
  - Shift + clicking removes the last added point.
  - `C` followed by the R, G, B and A values in the terminal sets the drawing color. 
+ - `F` finishes the current polygon, so the next drawn point will be in a new polygon. The same effect can be acheived by exiting and reentering modeling mode.
 
 ##### Results
 Some screenshots of the application follow:  
