@@ -1,14 +1,58 @@
-<html>
-	<title>CS475 Assignment 1 Report</title>
-	
-	<head><h3>
-		CS475 Assignment 1 Report
-		<br>~~~~~~~~~~~~~~~~~~~~~~~
-	</h3></head>
-	
-	<body>
-		Alankar Kotwal (12D070010), Manish Goregaokar (120260006)
-		<br><br>
-		Write something here
-	</body>
-</html>
+<h2># CS475 Assignment 1</h2>
+
+<h4>Alankar Kotwal (12D070010), Manish Goregaokar (120260006)</h4>
+
+<h5>Running the program</h5>
+
+<p>To compile the code unzip the submission, go to the un-zipped folder and type 
+<code>sh
+$ make
+</code>
+This should generate an executable called <code>model</code> in the folder. To run the executable type
+<code>sh
+$ ./model
+</code></p>
+
+<p>The models we're submitting are in the <code>models/</code> directory. To load a model, press <code>L</code> on the GLFW window and type the name of the model you want to load. The models we're submitting are</p>
+
+<ul>
+<li>mac2</li>
+<li>table</li>
+<li>tubelight2</li>
+</ul>
+
+<p>To load <code>mac2</code> press <code>L</code> and type <code>mac2</code> on the terminal window and press <code>Enter</code>. The program will add the directory name and extension by itself.</p>
+
+<h5>Controls</h5>
+
+<h6>Inspection mode:</h6>
+
+<p>The inspection mode controls are as follows:
+ - <code>I</code> activates the inspection mode.
+ - <code>L</code> loads a model from the <code>models/</code> directory.
+ - <code>A</code> and <code>D</code> move the currently loaded model in the + and - x-direction respectively.
+ - <code>W</code> and <code>S</code> move the currently loaded model in the + and - y-direction respectively.
+ - <code>Z</code> and <code>X</code> move the currently loaded model in the + and - z-direction respectively.
+ - The right and left arrow keys provide rotation about the x-axis.
+ - The top and bottom arrow keys provide rotation about the y-axis.
+ - The Page Up and Page Down keys provide rotation about the z-axis.
+ - <code>Q</code> and <code>E</code> scale the model so as to provide zoom.
+ - <code>R</code> re-centers the model at its centroid.
+ - <code>Tab</code> changes the currently active (displayed) model.
+ - <code>V</code> toggles pesudo-lighting.
+ - <code>+</code> and <code>-</code> increase/decrease the lighting intensity.</p>
+
+<h6>Modeling mode:</h6>
+
+<p>In addition to the controls in the inspection mode, we have the following controls in the modeling mode:
+ - <code>M</code> activates the modeling mode.
+ - Clicking adds a new point at the point you click on and the active z-coordinate.
+ - Scrolling adjusts the active z-coordinate so that we're able to draw in 3D.
+ - Shift + clicking removes the last added point.
+ - <code>C</code> followed by the R, G, B and A values in the terminal sets the drawing color. </p>
+
+<h5>Results</h5>
+
+<p>Some screenshots of the application follow: <br />
+<img src="mac.png" alt="mac" title="" />
+<img src="tube.png" alt="tubelight" title="" /></p>

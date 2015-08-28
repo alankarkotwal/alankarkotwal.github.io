@@ -48,4 +48,5 @@ In addition to the controls in the inspection mode, we have the following contro
 
 ##### Results
 Some screenshots of the application follow:  
-![table](http://www.independent.co.uk/incoming/article8465213.ece/alternates/w620/v2-cute-cat-picture.jpg)
+![mac](mac.png)
+![tubelight](tube.png)
