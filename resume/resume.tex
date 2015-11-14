@@ -42,9 +42,8 @@
 \vspace{.05in}
 \begin{tabular}{@{}p{2.9in}p{.5in}p{3in}}
 Department of Electrical Engineering & \multicolumn{1}{r}{\it Phone:}  &(+91) 996 967 8123 \\            
-Indian Institute of Technology Bombay &\multicolumn{1}{r}{\it E--Mail:}& \href{mailto:alankar.kotwal@iitb.ac.in}{\textcolor{blue}{alankar.kotwal@iitb.ac.in}}\\ 
-281, Hostel 09, IIT Bombay & & \href{mailto:alankarkotwal13@gmail.com}{\textcolor{blue}{alankarkotwal13@gmail.com}}\\ 
-
+Indian Institute of Technology Bombay &\multicolumn{1}{r}{\it E--Mail:}& \href{mailto:alankar.kotwal@iitb.ac.in}{\textcolor{blue}{alankar.kotwal@iitb.ac.in}} \\ 
+281, Hostel 09, IIT Bombay & & \href{mailto:alankarkotwal13@gmail.com}{\textcolor{blue}{alankarkotwal13@gmail.com}} \\ 
 Powai, Mumbai, India 400 076 & \multicolumn{1}{r}{\it Webpage:} &\href{alankarkotwal.github.io}{\textcolor{blue}{alankarkotwal.github.io}} \\     
 \end{tabular}
 
@@ -55,28 +54,31 @@ I am passionate about Computer and Medical Vision, Machine Learning, Estimation 
 {\bf \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}}}, Mumbai, India \hfill {\it July 2012 -- Present}\\
 \vspace*{-.1in}
 \begin{list1}
-\item[] Dual Degree, Bachelor \& Master of Technology, \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Department of Electrical Engineering}} 
+\item[] Dual Degree, Bachelor \& Master of Technology, \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Department of Electrical Engineering}}
+\item[] Specialization: {\em Communication and Signal Processing}
 \begin{list2}
 \vspace*{.05in}
-\item \textbf{Major CGPA:} 8.78/10 (\hyperlink{crselst}{\textcolor{blue}{Detailed List of Courses}})
+\item \textbf{Major CGPA:}  \ 8.78/10 (\hyperlink{crselst}{\textcolor{blue}{Detailed List of Courses}})
 \item \textbf{Minor Degree:}  Department of \href{www.cse.iitb.ac.in}{\textcolor{blue}{Computer Science \& Engineering}}
 \end{list2}
 \end{list1}
 
 \section{\sc Research Internships} 
-{\bf  \href{http://theairlab.org/}{\textcolor{blue}{The Airlab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}}} \\
+
+{\bf  \href{http://theairlab.org/}{\textcolor{blue}{The AIR Lab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}}} \\
 {\em Guide: \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Prof. Sebastian Scherer}} \& \href{http://www.ri.cmu.edu/person.html?person_id=2128}{\textcolor{blue} {Stephen Nuske}}}\hfill\textit{Summer 2015}\\
 \vspace*{-.13in}
 \begin{list1}
 \item[]\textbf{Stereo Odometry From A Downward-Facing Stereo Camera On A Vehicle} \\
-Fast and accurate stereo odometry is a pre-requisite for many robotics applications like localisation, path planning and navigation. For aerial vehicles like quadcopters, a good way to do odometry is to use a ground-facing camera and track the motion of the (relatively featureless) ground in order to determine the vehicle's position. This has traditionally been done with sensors like the Pixhawk PX4FLOW, which uses a single camera doing correlation-based tracking along with a sonar for odometry. This has several disadvantages, like small camera field of view (meaning small maximum allowed speeds for accurate tracking), bad sonar readings at low range (especially during take-off), requirement of an inertial unit for angle measurement and height-dependent camera focus. We aimed to replace the PX4FLOW with a small-baseline stereo camera for the same purpose. Assuming that most of the field of view lies on a plane parallel to the sensors, the height of the vehicle is obtained from a robust estimate of the horizontal disparity between rectified stereo pairs. Alternatively, height, pitch and roll are jointly estimated using a robust gradient-descent homography fit between rectified stereo pairs. Similar, rigid tracking across frames is then used to measure position. We obtained better depth estimates, better maximum speeds and comparable accuracy without an inertial unit as compared to the PX4FLOW.
+Fast and accurate stereo odometry is a pre-requisite for many robotics applications like localisation, path planning and navigation. For aerial vehicles like quadcopters, a good way to do odometry is to use a ground-facing camera and track the motion of the (relatively featureless) ground. This has traditionally been done with sensors like the Pixhawk PX4FLOW, which uses a single camera doing correlation-based tracking along with a sonar for odometry. This has several disadvantages, like small camera field of view (meaning small maximum allowed speeds for accurate tracking), bad sonar readings at low range (especially during take-off), requirement of an inertial unit for angle measurement and height-dependent camera focus. We aimed to replace the PX4FLOW with a small-baseline stereo camera for the same purpose. Assuming that most of the field of view lies on a plane parallel to the sensors, the height of the vehicle is obtained from a robust estimate of the horizontal disparity between rectified stereo pairs. Alternatively, height, pitch and roll are jointly estimated using a robust gradient-descent homography fit between rectified stereo pairs. Similar, rigid tracking across frames is then used to measure position. We obtained better depth estimates, better maximum speeds and comparable accuracy without an inertial unit as compared to the PX4FLOW.
 \end{list1}
+
 {\bf \href{http://lcdm.astro.illinois.edu/}{\textcolor{blue} {Laboratory for Cosmological Data Mining}}, \href{http://www.illinois.edu/}{\textcolor{blue}{University of Illinois, Urbana -- Champaign}}} \\
 {\em Guide: \href{hhttp://www.astro.illinois.edu/people/bigdog}{\textcolor{blue}{Prof. Robert Brunner}}, under \href{https://www.google-melange.com/gsoc/homepage/google/gsoc2014}{\textcolor{blue} {Google Summer of Code}}} \hfill {\it Summer 2014}\\
 \vspace*{-.13in}
 \begin{list1}
 \item[]\textbf{A Pixel-Level Machine Learning Method for Calculating Source Redshifts} \\
-Distances in Astrophysics have traditionally been measured using a variety of techniques, spectrometry being prominent among them. The basic idea in spectrometry is, given a source with a measurable spectrum, features in the spectrum (like bright emission or dark absorbtion lines) can be fit to obtain the source's redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts for these sources, or alternatively classify them. Unlike previous attempts, we calculate features pixel-wise instead of integrating over entire source area, giving potential benefits like source de-blending and better background separation. The redshift calculation and source classification from the method are reasonably accurate.
+Distances in Astrophysics have traditionally been measured using a variety of techniques, spectrometry prominent among them. The basic idea in spectrometry is, given a source with a measurable spectrum, features in the spectrum (like emission or absorption lines) can be fit with known lines to obtain the source's redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts for these sources, or alternatively classify them. Unlike previous attempts, we calculate features pixel-wise instead of integrating over entire source area, giving potential benefits like source de-blending and better background separation. The redshift calculation and source classification from the method are reasonably accurate.
 \end{list1}
 
 %\vspace{-.1cm}
@@ -87,37 +89,21 @@ Distances in Astrophysics have traditionally been measured using a variety of te
 {\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB} \hfill {\it January 2015 -- Present}\\
 \vspace*{-.13in}
 \begin{list1}
-\item[]  % 
+\item[]
 Laparoscopic images in minimally invasive surgery get corrupted by surgical smoke and noise. This degrades the quality of the surgery and the results of subsequent processing for, say, segmentation and tracking. Algorithms for desmoking and denoising laparoscopic images seem to be missing in the medical vision literature. We formulated the problem of {\em joint desmoking and denoising} of laparoscopic images as a {\em Bayesian inference} problem. This formulation relies on a novel {\em probabilistic graphical model} of images, which includes a {\em Markov Random Field (MRF) formulation for color-contrast} and another {\em MRF for smoothness} on the uncorrupted color image as well as the transmission-map image that indicates color attenuation due to smoke. The results on simulated and real-world laparoscopic images, including clinical expert evaluation, shows the advantages of the proposed method over the state of the art. The results have been submitted to the \href{http://biomedicalimaging.org/2016/}{\textcolor{blue} {International Symposium on Biomedical Imaging}} for publication.
 \end{list1}
 
 {\bf The IITB Mars Rover Project}
 %\\
-%{\em Guide: \href{https://sites.google.com/site/rajendranbipin/}{\textcolor{blue}{Prof. Bipin Rajendran}}, EE, IITB}
+%{\em Guide: \href{http://www.aero.iitb.ac.in/~pjguru/}{\textcolor{blue}{Prof. PJ Guruprasad}}, Aerospace, IITB}
 \hfill {\it May 2013 -- 2015}\\
 \vspace*{-.13in}
 \begin{list1}
 \item[]
-MSI Description
+The IITB Mars Rover project is a student initiative at IIT Bombay to build a prototype Mars Rover capable of a number of tasks required for extra-terrestrial robotics. The aim of the project is to participate in the \href{urc.marssociety.org/}{\textcolor{blue} {University Rover Challenge}}. As part of the project, we designed and developed a rover with a rocker-bogie suspension and novel air-filled beach tyres. 
+%
+As part of testing the rover's capabilities, we got the opportunity to \href{http://www.nssa.com.au/14asrc/14ASRC-proceedings.zip}{\textcolor{blue} {here}}
 \end{list1}
-
-\section{\sc Scholastic Achievements \\and Awards}
-\begin{list2}
-\item[\strut\hspace{0.5cm}\textbf{Institute Level Achievements}]
-\item Conferred Institute Academic Prize for academic excellence in years 2013-14 and 2014-15
-\item Secured Semester Point Index (SPI) of $10.00$ in $3^{rd}$ and $6^{th}$ semester
-\item Awarded AP grade (for outstanding performance) in `Numerical Analysis' and `Nanoelectronics'\vspace{0.05in}
-\item[\strut\hspace{0.5cm}\textbf{Olympiads and Competitive Exams}]
-\item Represented India (part of $5$ member team) in $43^{rd}$ International Physics Olympiad held in Estonia 2012. Won Bronze Medal and also felicitated by Infosys Award
-\item  Secured All India Rank (AIR) $58$ in \href{https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Joint_Entrance_Examination}{\textcolor{blue}{IIT-JEE}} and \href{https://en.wikipedia.org/wiki/All_India_Engineering/Architecture_Entrance_Examination}{\textcolor{blue}{AIEEE}} $2012$ amongst $1.1$ million candidates
-\item Secured AIR $3$ in International Mathematics Olympiad and AIR $9$ in National Science Olympiad
-\item National Top $300$ in Indian National Astronomy Olympiad (INAO) thrice during 2010-2012
-\vspace{0.05in}
-\item[\strut\hspace{0.5cm}\textbf{Scholarships}]
-\item Awarded \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{KVPY Scholarship}} $2011$ by Dept. of Science and Technology, Govt. of India
-\item Holder of \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{NTSE Scholarship}} $2008$ by NCERT, Govt. of India
-\item  Recipient of Central Board of Secondary Education (CBSE) -- Scholarship for Higher Education (SHE) for being in top $1\%$ in High School all over India
-\end{list2}
 
 \section{\sc Other \\Projects}
 {\bf Model of Pulse Laser Deposition} \hfill {\it EE669: VLSI Technology}\\
@@ -126,7 +112,9 @@ MSI Description
 \begin{list1}
 \item[]Modelling analytically and simulating the non-uniform deposition of target material in Pulse Laser Deposition (PLD) and how to make uniformly deposited films using it. 
 \end{list1}
+
 \vspace*{-0.1in}
+
 {\bf LC3b Processor Design} \hfill \textit{EE309: Microprocessors}\\
 {\em Guide: \href{https://www.ee.iitb.ac.in/~viren/}{\textcolor{blue}{Prof. Virendra Singh}}, EE, IITB \hfill Autumn 2014-15}\\
 \vspace*{-.15in}
@@ -160,6 +148,19 @@ MSI Description
 \begin{list1}
 \item[]Theoretically analysed Nanowire Transistors under Ballistic Transport via 2 methods viz. QM analysis and analytical approach as suggested by two independent research groups in the field.
 \end{list1}
+
+\section{\sc Scholastic Achievements \\and Awards}
+\begin{list2}
+\item[\strut\hspace{0.5cm}\textbf{Olympiads and Competitive Exams}]
+\item Represented India at the $6^{th}$ International Olympiad on Astronomy and Astrophysics, Brazil, 2012. Won a Gold Medal with International Rank 4 and a special prize for Best Data Analysis
+\item Represented India at the $5^{th}$ International Earth Sciences Olympiad, Italy, 2011. Won a Bronze Medal and prizes for best performance in the Hydrosphere section and the team presentation
+\item  Secured All India Rank (AIR) $105$ in \href{https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Joint_Entrance_Examination}{\textcolor{blue}{IIT-JEE}} amongst $1.1$ million candidates
+\vspace{0.05in}
+\item[\strut\hspace{0.5cm}\textbf{Scholarships}]
+\item Awarded \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{KVPY Scholarship}} $2011$ by Dept. of Science and Technology, Govt. of India
+\item Awarded \href{http://www.ncert.nic.in/programmes/talent_exam/index_talent.html}{\textcolor{blue}{NTSE Scholarship}} $2008$ by NCERT, Govt. of India
+\end{list2}
+
 
 \section{\sc Mentoring Experience}
 \textbf{Teaching Assistant}\\
