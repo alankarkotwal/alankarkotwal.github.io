@@ -1,187 +1,246 @@
-\documentclass[11pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[margin,line]{res}
 
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{textcomp}
 \usepackage{color}
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
 
-\usepackage[scale=0.80]{geometry} % Reduce document margins
-\setlength{\hintscolumnwidth}{1.9cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
 
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
 
-\firstname{Alankar} % Your first name
-\familyname{Kotwal} % Your last name
-
-% All information in this block is optional, comment out any lines you don't need
-\title{Detailed R\'esum\'e}
-\email{alankar.kotwal@iitb.ac.in}
-\homepage{alankarkotwal.github.io}{alankarkotwal.github.io}
-\mobile{+91-9969678123}
-\extrainfo{\url{www.github.com/alankarkotwal}}
-\photo[70pt][0.4pt]{pic.jpg}
+\pagenumbering{gobble}
 
 \begin{document}
-\makecvtitle
 
-\section{Education}
+\name{\textbf{\huge{Alankar Kotwal}} \vspace*{.05in} \newline  {\sc Senior Under-Graduate}\vspace*{.1in}}
 
-\cventry{2012--2017}{Dual Degree, B. Tech and M.Tech in Electrical Engineering}{\newline Indian Institute of Technology}{Bombay}{\textit{CPI -- 8.78/10}}{Communication and Signal Processing, Minor: Computer Sciences and Engineering}
-\cventry{2010--2012}{Intermediate Examination}{\newline Ratanbai Walbai Junior College of Science}{Mumbai}{\textit{Percentage -- 93.83}}{}
-\cventry{2001--2010}{Matriculation}{\newline SVPT's Saraswati Vidyalaya}{Thane}{\textit{Percentage -- 95.27}}{}
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2.9in}p{.5in}p{3in}}
+Department of Electrical Engineering & \multicolumn{1}{r}{\it Phone:}  &(+91) 996 967 8123 \\            
+Indian Institute of Technology Bombay &\multicolumn{1}{r}{\it E--Mail:}& \href{mailto:alankar.kotwal@iitb.ac.in}{\textcolor{blue}{alankar.kotwal@iitb.ac.in}}\\ 
+281, Hostel 09, IIT Bombay & & \href{mailto:alankarkotwal13@gmail.com}{\textcolor{blue}{alankarkotwal13@gmail.com}}\\ 
 
-\section{Achievements}
-\cventry{Aug 2012}{\textbf{Gold Medal, International Olympiad on Astronomy \& Astrophysics}}{\newline Brazil} {International Rank 4, Special Prize for Best Data Analysis}{}{}
-\cventry{Sep 2011}{\textbf{Bronze Medal, International Earth Sciences Olympiad}}{\newline Italy} {Special Prize for Best Performance in Hydrosphere section}{}{}
-\cventry{Apr 2012}{All India Rank 105}{IIT-JEE}{\newline among around 5,90,000 participants for entrance to the IITs}{}{}
-\cventry{2009--2012}{Olympiad Orientation-cum-Selection Camps}{}{\newline Selected for the following camps, among the top 30 students in India (Astronomy: 2012 \& 2010, Earth Sciences: 2011, Junior Sciences: 2010 \& 2009)}{}{}
-\cventry{2010}{Kishore Vaigyanik Protsahan Yojana Scholarship}{}{\newline Awarded by the Government of India to students interested in research}{}{}
-\cventry{2008}{National Talent Search Examination Scholarship}{}{\newline Awarded by the Government of India to students interested in research}{}{}
-\cventry{2011--2012}{Infosys Award for Olympiad Medallists}{}{}{}{}
-\cventry{Dec 2013}{Inter-IIT Messier Marathon}{}{\newline Secured IIT Bombay the second position by putting on board 72 messier objects including the entire Virgo cluster of galaxies}{}{}
-\cventry{2013}{Other competitions}{}{\newline Won the Innovation Cell recruitment contest for freshmen and the Astronomy Quiz conducted by the Astronomy Club, IITB in 2012 and BITS Goa in 2013}{}{}
+Powai, Mumbai, India 400 076 & \multicolumn{1}{r}{\it Webpage:} &\href{alankarkotwal.github.io}{\textcolor{blue}{alankarkotwal.github.io}} \\     
+\end{tabular}
 
+\section{\sc Research Interests}
+I am passionate about Computer and Medical Vision, Machine Learning, Estimation Theory, Astrophysics and Cosmology. I enjoy learning about and experimenting with Robotics, Computer Networks and Security, Computer Graphics and applications of these fields in one another.
+
+\section{\sc Education}
+{\bf \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}}}, Mumbai, India \hfill {\it July 2012 -- Present}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Dual Degree, Bachelor \& Master of Technology, \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Department of Electrical Engineering}} 
+\begin{list2}
+\vspace*{.05in}
+\item \textbf{Major CGPA:} 8.78/10 (\hyperlink{crselst}{\textcolor{blue}{Detailed List of Courses}})
+\item \textbf{Minor Degree:}  Department of \href{www.cse.iitb.ac.in}{\textcolor{blue}{Computer Science \& Engineering}}
+\end{list2}
+\end{list1}
+
+\section{\sc Research Internships} 
+{\bf  \href{http://theairlab.org/}{\textcolor{blue}{The Airlab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}}} \\
+{\em Guide: \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Prof. Sebastian Scherer}} \& \href{http://www.ri.cmu.edu/person.html?person_id=2128}{\textcolor{blue} {Stephen Nuske}}}\hfill\textit{Summer 2015}\\
+\vspace*{-.13in}
+\begin{list1}
+\item[]\textbf{Stereo Odometry From A Downward-Facing Stereo Camera On A Vehicle} \\
+Fast and accurate stereo odometry is a pre-requisite for many robotics applications like localisation, path planning and navigation. For aerial vehicles like quadcopters, a good way to do odometry is to use a ground-facing camera and track the motion of the (relatively featureless) ground in order to determine the vehicle's position. This has traditionally been done with sensors like the Pixhawk PX4FLOW, which uses a single camera doing correlation-based tracking along with a sonar for odometry. This has several disadvantages, like small camera field of view (meaning small maximum allowed speeds for accurate tracking), bad sonar readings at low range (especially during take-off), requirement of an inertial unit for angle measurement and height-dependent camera focus. We aimed to replace the PX4FLOW with a small-baseline stereo camera for the same purpose. Assuming that most of the field of view lies on a plane parallel to the sensors, the height of the vehicle is obtained from a robust estimate of the horizontal disparity between rectified stereo pairs. Alternatively, height, pitch and roll are jointly estimated using a robust gradient-descent homography fit between rectified stereo pairs. Similar, rigid tracking across frames is then used to measure position. We obtained better depth estimates, better maximum speeds and comparable accuracy without an inertial unit as compared to the PX4FLOW.
+\end{list1}
+{\bf \href{http://lcdm.astro.illinois.edu/}{\textcolor{blue} {Laboratory for Cosmological Data Mining}}, \href{http://www.illinois.edu/}{\textcolor{blue}{University of Illinois, Urbana -- Champaign}}} \\
+{\em Guide: \href{hhttp://www.astro.illinois.edu/people/bigdog}{\textcolor{blue}{Prof. Robert Brunner}}, under \href{https://www.google-melange.com/gsoc/homepage/google/gsoc2014}{\textcolor{blue} {Google Summer of Code}}} \hfill {\it Summer 2014}\\
+\vspace*{-.13in}
+\begin{list1}
+\item[]\textbf{A Pixel-Level Machine Learning Method for Calculating Source Redshifts} \\
+Distances in Astrophysics have traditionally been measured using a variety of techniques, spectrometry being prominent among them. The basic idea in spectrometry is, given a source with a measurable spectrum, features in the spectrum (like bright emission or dark absorbtion lines) can be fit to obtain the source's redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts for these sources, or alternatively classify them. Unlike previous attempts, we calculate features pixel-wise instead of integrating over entire source area, giving potential benefits like source de-blending and better background separation. The redshift calculation and source classification from the method are reasonably accurate.
+\end{list1}
+
+%\vspace{-.1cm}
 \newpage
+\section{\sc Research Projects}
 
-\section{Experience: Electrical Engineering and Computer Sciences}
+{\bf A New Bayesian Framework For Laparoscopic Image Dehazing and Denoising} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB} \hfill {\it January 2015 -- Present}\\
+\vspace*{-.13in}
+\begin{list1}
+\item[]  % 
+Laparoscopic images in minimally invasive surgery get corrupted by surgical smoke and noise. This degrades the quality of the surgery and the results of subsequent processing for, say, segmentation and tracking. Algorithms for desmoking and denoising laparoscopic images seem to be missing in the medical vision literature. We formulated the problem of {\em joint desmoking and denoising} of laparoscopic images as a {\em Bayesian inference} problem. This formulation relies on a novel {\em probabilistic graphical model} of images, which includes a {\em Markov Random Field (MRF) formulation for color-contrast} and another {\em MRF for smoothness} on the uncorrupted color image as well as the transmission-map image that indicates color attenuation due to smoke. The results on simulated and real-world laparoscopic images, including clinical expert evaluation, shows the advantages of the proposed method over the state of the art. The results have been submitted to the \href{http://biomedicalimaging.org/2016/}{\textcolor{blue} {International Symposium on Biomedical Imaging}} for publication.
+\end{list1}
 
-\cventry{Summer 2015}{Research Internship, The Robotics Institute}{\newline Stereo odometry from a downward-facing stereo camera on a vehicle}{\newline Prof. Sebastian Scherer and Stephen Nuske}{Carnegie Mellon University}{
-    \begin{itemize}
-        \item{Explored correlation-based stereo odometry for quadcopter localisation applications}
-        \item{Implemented gradient-descent for tracking and homography fits to obtain 6-DoF pose}
-    \end{itemize}
-}
+{\bf The IITB Mars Rover Project}
+%\\
+%{\em Guide: \href{https://sites.google.com/site/rajendranbipin/}{\textcolor{blue}{Prof. Bipin Rajendran}}, EE, IITB}
+\hfill {\it May 2013 -- 2015}\\
+\vspace*{-.13in}
+\begin{list1}
+\item[]
+MSI Description
+\end{list1}
 
-\cventry{Summer 2014}{Google Summer of Code}{\newline A New Pixel-Level Method for Determination of Photometric Redshifts}{\newline Prof. R. Brunner \& M. Kind, Laboratory for Cosmological Data Mining}{UIUC}{
-\begin{itemize}
-    \item{Used SDSS photometry to extract pixel information for machine learning algorithms}
-    \item{Worked on parallel programming and performance enhancement}
-    \item{Validated the approach and got consistent predictions for redshifts in the testing set}
-\end{itemize}
-}
+\section{\sc Scholastic Achievements \\and Awards}
+\begin{list2}
+\item[\strut\hspace{0.5cm}\textbf{Institute Level Achievements}]
+\item Conferred Institute Academic Prize for academic excellence in years 2013-14 and 2014-15
+\item Secured Semester Point Index (SPI) of $10.00$ in $3^{rd}$ and $6^{th}$ semester
+\item Awarded AP grade (for outstanding performance) in `Numerical Analysis' and `Nanoelectronics'\vspace{0.05in}
+\item[\strut\hspace{0.5cm}\textbf{Olympiads and Competitive Exams}]
+\item Represented India (part of $5$ member team) in $43^{rd}$ International Physics Olympiad held in Estonia 2012. Won Bronze Medal and also felicitated by Infosys Award
+\item  Secured All India Rank (AIR) $58$ in \href{https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Joint_Entrance_Examination}{\textcolor{blue}{IIT-JEE}} and \href{https://en.wikipedia.org/wiki/All_India_Engineering/Architecture_Entrance_Examination}{\textcolor{blue}{AIEEE}} $2012$ amongst $1.1$ million candidates
+\item Secured AIR $3$ in International Mathematics Olympiad and AIR $9$ in National Science Olympiad
+\item National Top $300$ in Indian National Astronomy Olympiad (INAO) thrice during 2010-2012
+\vspace{0.05in}
+\item[\strut\hspace{0.5cm}\textbf{Scholarships}]
+\item Awarded \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{KVPY Scholarship}} $2011$ by Dept. of Science and Technology, Govt. of India
+\item Holder of \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{NTSE Scholarship}} $2008$ by NCERT, Govt. of India
+\item  Recipient of Central Board of Secondary Education (CBSE) -- Scholarship for Higher Education (SHE) for being in top $1\%$ in High School all over India
+\end{list2}
 
-\cventry{Spring 2015}{Laparoscopic Image Dehazing}{\newline Using the Dark Channel Prior to De-Haze Laparoscopy Images}{\newline Prof. S. Awate, Department of Computer Sciences}{IIT Bombay}{
-\begin{itemize}
-    \item{Used the statistical properties of natural images to remove haze effects}
-    \item{Working on an optimization model for the same process}
-\end{itemize}
-\textit{Paper "Joint De-smoking and Denoising of Laparoscopy Images Using Probabilistic Graphical Modeling With Bayesian Inference" submitted to the International Symposium on Biomedical Imaging (ISBI), 2016}
-}
+\section{\sc Other \\Projects}
+{\bf Model of Pulse Laser Deposition} \hfill {\it EE669: VLSI Technology}\\
+{\em Guide: \href{https://www.ee.iitb.ac.in/wiki/faculty/udayan}{\textcolor{blue}{Prof. Udayan Ganguly}}, EE, IITB \hfill Autumn 2015-16}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[]Modelling analytically and simulating the non-uniform deposition of target material in Pulse Laser Deposition (PLD) and how to make uniformly deposited films using it. 
+\end{list1}
+\vspace*{-0.1in}
+{\bf LC3b Processor Design} \hfill \textit{EE309: Microprocessors}\\
+{\em Guide: \href{https://www.ee.iitb.ac.in/~viren/}{\textcolor{blue}{Prof. Virendra Singh}}, EE, IITB \hfill Autumn 2014-15}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[]Designed original point-to-point based data path and control path for LC3b ISA using FSM for Controller. Implemented the same using VHDL on DE0-Nano.
+\end{list1}
 
-\cventry{2013--2015}{Computer Vision, The IITB Mars Rover Team}{\newline A Student Initiative at IITB}{}{}{
-\begin{itemize}
-    \item{Exploring stereo vision for autonomous navigation and obstacle avoidance}
-    \item{Implementation of the rover software stack on ROS}
-    \item{Hardware interfacing for peripherals on-board and debugging}
-\end{itemize}
-}
+\vspace*{-0.1in}
 
-\cventry{Summer 2014}{The Arkaroola Mars Robot Challenge}{\newline A joint venture of the Mars Society Australia and Saber Astronautics}{}{}{
-\begin{itemize}	
-\item{Tested the Mars Rover prototype in the harsh conditions of the Australian outback}
-\item{Participated in a series of exercises in Mars operations research conducted by Saber Astronautics including simulated extra-vehicular activities in simulated space-suits}
-\end{itemize}
-\textit{Featured in Clarke et al., "Field Robotics, Astrobiology and Mars Analogue Research on the Arkaroola Mars Robot Challenge Expedition", Australian Space Research Conference}
-}
+{\bf Movies Information System} \hfill \textit{CS317: Database and Information System}\\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~umesh/}{\textcolor{blue}{Prof. Umesh Bellur}}, CSE, IITB \hfill Autumn 2014-15}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[]Created a database system using SQL and made an online application using JSP and Tomcat to access it. Also devised different security levels of access to Database. 
+\end{list1}
 
-\cventry{Spring 2015}{Stereo Visual Odometry from Pointclouds}{\newline Using point-set registration for localization}{\newline Prof. A. Rajwade, Department of Computer Sciences}{IIT Bombay}{
-\begin{itemize}
-    \item{Explored kernel-correlation maximisation for point-set registration}
-    \item{Implemented coherent point drift for pointclouds in C++}
-\end{itemize}
-}
+\vspace*{-0.1in}
 
-\cventry{Autumn 2014}{Gravitational Lens Identification Using Image Processing Techniques}{\newline A PCA-based Method for Identifying Lenses in Databases}{\newline Prof. A. Rajwade and S. Awate, Department of Computer Sciences}{IIT Bombay}{
-\begin{itemize}
-\item{Improvised on source-subtraction algorithms for lens subtraction}
-\item{Implemented the algorithm in Matlab and got a good identification rate for lenses}
-\end{itemize}
-}
+{\bf Motion Sensor Brick Breaking Game} \hfill \textit{EE224: Digital Systems}\\
+{\em Guide: \href{https://www.ee.iitb.ac.in/wiki/faculty/jayanta}{\textcolor{blue}{Prof. Jayanta Mukherjee}}, EE, IITB \hfill Spring 2013-14}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[]Revamped the arcade Brick Break Game with Paddle’s motion governed by the tilt of hand. Interfaced VGA and accelerometer via VHDL on CPLD. 
+\end{list1}
 
-\cventry{Autumn 2014}{Microprocessor Design}{\newline Design, Implementation and Validation of Three Processors in Verilog}{\newline Prof. V. Singh, Department of Electrical Engineering}{IIT Bombay}{
-\begin{itemize}
-\item{Designed and simulated a pipelined processor with the Little Computer Architecture}
-\item{Designed, implemented and tested a multi-cycle RISC processor using the LC-3b ISA}
-\end{itemize}
-}
+\vspace*{-0.1in}
 
-\newpage
+{\bf Ballistic Nanowire} \hfill \textit{EE432: Special Semiconductor Devices}\\
+{\em Guide: \href{https://www.ee.iitb.ac.in/wiki/faculty/dsaha}{\textcolor{blue}{Prof. Dipankar Saha}}, EE, IITB \hfill Spring 2013-14}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[]Theoretically analysed Nanowire Transistors under Ballistic Transport via 2 methods viz. QM analysis and analytical approach as suggested by two independent research groups in the field.
+\end{list1}
 
-\section{Experience: Astronomy and Astrophysics}
+\section{\sc Mentoring Experience}
+\textbf{Teaching Assistant}\\
+\begin{tabular}{@{}p{2.77in}p{5in}p{3in}}
+\strut\hspace{0.5cm}CS663: Electricity and Magnetism & \multicolumn{1}{c}{  Prof. C.V. Tomy  } & \multicolumn{1}{r}{\strut\hspace{1cm}\textit{Spring 2013-14}}\\
+\strut\hspace{0.5cm}MA105: Calculus & \multicolumn{1}{c}{  Prof. Ravi Raghunathan  } & \multicolumn{1}{r}{\strut\hspace{1cm}\textit{Autumn 2014-15}}\\
+\strut\hspace{0.5cm}PH108: Electricity and Magnetism & \multicolumn{1}{c}{  Prof. Bhanu Prasad  } & \multicolumn{1}{r}{\strut\hspace{1cm}\textit{Spring 2014-15}}\\
+\end{tabular}\\
+\textbf{Academic Mentor} \hfill \textit{April 2014 -- Present}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[]Selected twice as a member of the Department Academic Mentorship Program team, responsible for the academic well-being of the students and aided two students to clear their backlogs and get good grades. Developed detailed course reviews and website for the ease of EE students.
+\end{list1}
 
-\cventry{Dec 2013}{National Initiative for Undergraduate Studies -- Astronomy}{\newline An X-Ray Study of Black Hole Candidate X Norma X-1}{\newline Prof. Manojendu Choudhury}{Center for Basic Sciences, University of Mumbai}{
-\begin{itemize}
-\item{Analysed timing information from RXTE to detect quasi-periodic oscillations}
-\item{Fitted obtained spectra \& observed unusual oscillations in the inner radius}
-\end{itemize}
-}
+\vspace*{-0.1in}
 
-\cventry{Dec 2012}{National Initiative for Undergraduate Studies -- Astronomy}{\newline Estimation of Photometric Redshifts Using Machine Learning Techniques}{\newline Prof. Ninan Sajeeth Philip}{IUCAA, Pune}{
-\begin{itemize}
-\item{Estimated redshifts from colour information obtained from SDSS using neural networks}
-\item{Worked on generation of training data from available data by redshifting spectra}
-\end{itemize}
-}
+\textbf{Student Mentor} \hfill \textit{March 2015 -- Present}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[]Mentoring 12 freshmen from diverse backgrounds for overall development under Institute Student Mentorship Program (ISMP) responsible for providing guidance to the entire freshmen batch. 
+\end{list1}
 
-\section{Positions of Responsibility}
-\cventry{Autumn 2015}{Teaching Assistant}{CS663 -- Digital Image Processing}{\newline Prof. A. Rajwade and S. Awate, Department of Computer Sciences}{IIT Bombay}{
-\begin{itemize}
-    \item{Involved in setting \& evaluating assignments \& exams}
-    \item{Mentoring students with the course material \& projects}
-\end{itemize}
-}
+\vspace*{-0.1in}
 
-\cventry{May 2013 May 2014}{Resource Person}{\newline Indian National Astronomy Olympiad Programme}{}{HBCSE -- TIFR, Mumbai}{
-\begin{itemize}
-    \item{Student facilitator for the Astronomy Camp for mentoring \& evaluating students}
-    \item{Involved in generating problems for the Indian National Astronomy Olympiad}
-\end{itemize}
-}
+\textbf{Technical Mentor}\hfill \textit{April 2013 -- March 2014}\\
+\vspace*{-.15in}
+\begin{list1}
+\item[]Mentored $1^{st}$ year students for Robotic Competitions and Institute Technical Summer Projects.
+\end{list1}
 
-\section{Relevant Skills}
-\cvitem{\textbf{Languages}}{C/C++, Python, Shell Scripting, Matlab, SQL, HTML, PHP, \LaTeX}
-\cvitem{\textbf{Special Software}}{ROS/Gazebo, OpenCV, The Point Cloud Library, SPICE Circuit Simulation, EAGLE PCB Design, SolidWorks CAD, AutoCAD, LabView}
-\cvitem{\textbf{Science Software}}{Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn, Astropy, SExtractor, SDSS tools}
-\cvitem{\textbf{Hardware}}{\textit{Microprocessor Architectures}: 8051, 8085, AVR and PIC, CPLDs and FPGAs, \textit{Embedded Platforms}: Arduino, RaspberryPi, standard digital logic families}
+\section{\sc Relevant \\Coursework} 
+\begin{list1}
+\item[\strut\hspace{0.5cm}\hypertarget{crselst}{\textbf{Electrical}}]
+\item[]\textit{Neuromorphic Engg., VLSI Technology, Nanoelectronics, Control Systems, Special Semiconductor Devices, Microprocessors, Probability \& Random Processes, Digital Systems, Electronic Devices}
+\item[\strut\hspace{0.5cm}\textbf{Computer Science}]
+\vspace{0.05in}
+\item[]\textit{Design of Algorithms, Networks, DBMS, Data Structures and Algorithms, Discrete Mathematics}
+\item[\strut\hspace{0.5cm}\textbf{Physics}]
+\vspace{0.05in}
+\item[]\textit{Semiconductor Physics, Quantum Mechanics I, Solid State Physics, GTR, Classical Mechanics I}
+\item[\strut\hspace{0.5cm}\textbf{Mathematics}]
+\vspace{0.05in}
+\item[]\textit{Numerical Analysis, Complex Analysis, Differential Equations, Linear Algebra, Calculus}
+\end{list1}
 
-\section{Relevant Courses Undertaken}
+\section{\sc Technical \\Skills} 
+\begin{tabular}{@{}p{1.3in}p{4.3in}}
+\textbf{Programming} & C/C++, MATLAB, Java, VHDL, HTML, Assembly, SQL, Octave, JSP \\  
+\vspace*{-0.06in}
+\textbf{Software Packages} & 
+\vspace*{-0.06in}
+SolidWorks, EAGLE, \LaTeX, AutoCAD, GNURadio, Nextnano, Origin\\ 
+\vspace*{-0.06in}
+\textbf{Hardware} &
+\vspace*{-0.06in}
+CPLD (Altera MAX V), FPGA (Spartan 6), Intel 8051, Arduino\\     
+\end{tabular}
 
-\cvitem{\textbf{Computer Sciences}}{Computer Graphics, Computer Vision, Algorithms for Medical Image Processing, Machine Learning, Convex Optimisation, Digital Image Processing, Design and Analysis of Algorithms, Data Structures and Algorithms, Discrete Mathematics}
+\section{\sc Extra-\\Curricular Activities} 
+\begin{list2}
+\item Conducted survey on Deteriorating Ethics in Institute \& critically analysed it. Made propositions.
+\item Stood $1^{st}$ in Regional CBSE Science Exhibition and qualified for Nationals in $10^{th}$ grade
+\item Bagged $2^{nd}$ position in Bazinga, Institute Level Physics Quiz, $2014$
+\item Secured $1^{st}$ position in Fresher's Badminton GC and Treasure Hunt in Fresher's Cultural Fest
+\item Top rank in the District in MBD Talent Search for 5 consecutive years; $2006-10$
+\end{list2}
 
-\cvitem{\textbf{Electrical Engg}}{Estimation and Identification, Speech Processing, Digital Signal Processing, Controls, Probability and Random Processes, Digital Communication, Communication Systems, Microprocessors, Signals and Systems, Digital and Analog Systems, Electronic Devices and Circuits, Network Theory}
-
-\cvitem{\textbf{Physics \& Maths}}{The General Theory of Relativity, Electromagnetic Waves, Electricity and Magnetism, Classical Mechanics, Differential Equations, Linear Algebra, Complex Analysis, Calculus}
-
-%\section{Research Interests}
-%\cventry{}{Electrical Engineering and Computer Sciences}{}{}{}{
-%\begin{itemize}
-%    \item{Using computational Fourier Optics for imaging resolution improvement}
-%    \item{3D shape reconstruction using computer vision techniques}
-%    \item{Robot navigation using stereo vision and structure from motion}
-%    \item{Efficient algorithms for robot navigation using geometry of visual field}
-%    \item{Processor architecture}
-%    \item{Hardware description and simulation}
-%\end{itemize}
-%}
-
-%\cventry{}{Astronomy and Astrophysics}{}{}{}{
-%\begin{itemize}
-%    \item{Cosmology and the large-scale structure of the universe}
-%    \item{Stellar populations, structure and evolution}
-%    \item{Applications of computer vision to astronomy}
-%    \item{Data mining and its applications for handling astronomical data}
-%\end{itemize}
-%}
-
-%\cventry{}{Things I'd like to do}{}{}{}{
-%\begin{itemize}
-%    \item{Logic minimization}
-%    \item{Operations research in relation to Mars missions}
-%\end{itemize}
-%}
-
+\section{\sc References} 
+\begin{tabular}{@{}p{3in}p{3in}}
+\textbf{Prof. Suyash Awate}, CSE & \textbf{Dr. Aniket Sule}, Reader \\ 
+Indian Institute of Technology, Bombay & Homi Bhabha Center for Science Education \\
+\href{mailto:suyash@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Webpage}} & \href{mailto:anikets@hbcse.tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.hbcse.tifr.res.in/people/academic/aniket-sule}{\textcolor{blue}{Webpage}}\\
+%\vspace*{0in}
+%\textbf{Prof. Tomislav Bujanovic}, EECS &  
+%\vspace*{0in}
+%\textbf{Prof. Bipin Rajendran}, EE\\
+%Syracuse University, NY, USA & Indian Institute of Technology, Bombay\\
+%\href{mailto:tbujanov@syr.edu}{\textcolor{blue}{E--Mail}} $|$ \href{http://eng-cs.syr.edu/about-the-college/faculty-and-staff/bujanovic}{\textcolor{blue}{Webpage}} & \href{mailto:rajendran.bipin@gmail.com}{\textcolor{blue}{E--Mail}} $|$ \href{https://sites.google.com/site/rajendranbipin/}{\textcolor{blue}{Webpage}}\\
+\end{tabular}
+\end{resume}
 \end{document}
+
+
+
