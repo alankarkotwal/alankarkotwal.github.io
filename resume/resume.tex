@@ -78,7 +78,7 @@ Fast and accurate stereo odometry is a pre-requisite for many robotics applicati
 \vspace*{-.13in}
 \begin{list1}
 \item[]\textbf{A Pixel-Level Machine Learning Method for Calculating Source Redshifts} \\
-Distances in Astrophysics have traditionally been measured using a variety of techniques, spectrometry prominent among them. The basic idea in spectrometry is, given a source with a measurable spectrum, features in the spectrum (like emission or absorption lines) can be fit with known lines to obtain the source's redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts for these sources, or alternatively classify them. Unlike previous attempts, we \textit{calculate features pixel-wise} instead of integrating over entire source area, giving potential benefits like \textit{source de-blending and better background separation}. The redshift calculation and source classification from the method are reasonably accurate.
+Distances in Astrophysics have traditionally been measured using a variety of techniques, spectrometry prominent among them. The basic idea in spectrometry is, given a source with a measurable spectrum, features in the spectrum (like emission or absorption lines) can be fit with known lines to obtain the source's redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts for these sources, or alternatively classify them. Unlike previous attempts, we \textit{calculate features pixel-wise} instead of integrating over entire source area, giving potential benefits like \textit{source de-blending and better background separation}. The redshift calculation and source classification from the method are reasonably accurate. Code \href{https://github.com/alankarkotwal/image-photo-z/}{\textcolor{blue} {here}}.
 \end{list1}
 
 %\vspace{-.1cm}
@@ -90,7 +90,7 @@ Distances in Astrophysics have traditionally been measured using a variety of te
 \vspace*{-.13in}
 \begin{list1}
 \item[]
-Laparoscopic images in minimally invasive surgery get corrupted by surgical smoke and noise. This degrades the quality of the surgery and the results of subsequent processing for, say, segmentation and tracking. Algorithms for desmoking and denoising laparoscopic images seem to be missing in the medical vision literature. We formulated the problem of \textit{joint desmoking and denoising} of laparoscopic images as a \textit{Bayesian inference} problem. This formulation relies on a novel \textit{probabilistic graphical model} of images, which includes a \textit{Markov Random Field (MRF) formulation for color-contrast} and another \textit{MRF for smoothness} on the uncorrupted color image as well as the transmission-map image that indicates color attenuation due to smoke. The results on simulated and real-world laparoscopic images, including clinical expert evaluation, shows the advantages of the proposed method over the state of the art. The results have been submitted to the \href{http://biomedicalimaging.org/2016/}{\textcolor{blue} {International Symposium on Biomedical Imaging}} for publication.
+Laparoscopic images in minimally invasive surgery get corrupted by surgical smoke and noise. This degrades the quality of the surgery and the results of subsequent processing for, say, segmentation and tracking. Algorithms for desmoking and denoising laparoscopic images seem to be missing in the medical vision literature. We formulated the problem of \textit{joint desmoking and denoising} of laparoscopic images as a \textit{Bayesian inference} problem. This formulation relies on a novel \textit{probabilistic graphical model} of images, which includes a \textit{Markov Random Field (MRF) formulation for color-contrast} and another \textit{MRF for smoothness} on the uncorrupted color image as well as the transmission-map image that indicates color attenuation due to smoke. The results on simulated and real-world laparoscopic images, with clinical expert evaluation, shows the advantages of our method over the state of the art. The results have been submitted to the \href{http://biomedicalimaging.org/2016/}{\textcolor{blue} {International Symposium on Biomedical Imaging}} for publication. Code \href{https://github.com/alankarkotwal/lap-dehazing}{\textcolor{blue} {here}}.
 \end{list1}
 
 {\bf The IITB Mars Rover Project}
@@ -108,16 +108,16 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{https://www.cse.iitb.ac.in/~ganesh/}{\textcolor{blue}{Prof. Ganesh Ramakrishnan}}, CSE, IITB \hfill Autumn 2015-16} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] Using a series of convex approximations to the compressed sensing recovery problem, we reconstructed good and near-exact versions of the Barbara image at compression levels of as low as $0.1$ and $0.2$ respectively. We also proved convergence of the algorithm to the exact solution.
+\item[] Using a series of convex approximations to the compressed sensing recovery problem, we reconstructed good and near-exact versions of images at compressions as low as $0.1$ and $0.2$ respectively. We also proved convergence of the algorithm to the exact solution. Code \href{https://github.com/alankarkotwal/cs-rank-minimization}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
 
-{\bf Part-of-Speech Tagging} \hfill \textit{EE638: Estimation and Identification} \\
+{\bf Hidden Markov Model Part-of-Speech Tagging} \hfill \textit{EE638: Estimation and Identification} \\
 {\em Guide: \href{https://www.ee.iitb.ac.in/course/~ee638/Navin}{\textcolor{blue}{Prof. Navin Khaneja}}, EE, IITB \hfill Autumn 2015-16} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] We implemented Hidden Markov Model-based part-of-speech tagging with support for unknown words. An error rate of around 5\% and capabilities of the system to discern context were observed.
+\item[] We implemented part-of-speech tagging with support for unknown words. An error rate of around 5\% and capabilities of the system to discern context were observed. Code \href{https://github.com/alankarkotwal/pos-tagging}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -126,7 +126,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB \hfill Spring 2014-15} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] We applied the Dark Channel Prior method for landscape image dehazing to laparoscopic images. In order to make the process real-time, we replaced refining the transmission map with a differential equation with guided filtering and got good results.
+\item[] We applied the Dark Channel Prior method for landscape image dehazing to laparoscopic images. In order to make the process real-time, we replaced refining the transmission map with a differential equation with guided filtering and got good results. Code \href{https://github.com/riddhishb/Laproscopic-Image-Dehazing}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -135,7 +135,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE, IITB \hfill Spring 2014-15} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] We explored kernel density correlation as a method for registering pointclouds. We performed this maximisation with gradient-ascent and coherent point drift with PCL in C++ and observed good convergence behaviour for small displacements and rotations.
+\item[] We explored kernel density correlation as a method for registering pointclouds. We performed this maximisation with gradient-ascent and coherent point drift with PCL in C++ and observed good convergence behaviour for small displacements and rotations. Code \href{https://github.com/alankarkotwal/stereo-vo}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -144,7 +144,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}} and \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE, IITB \hfill Autumn 2014-15} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] Gravitationally lensed images of galaxies have rare arc-like artifacts that can be used to calculate the mass of the lens. Detection and source subtraction are essential preprocessing steps for this. We used Anscombe denoising followed by PCA to build a basis for galaxy images and used the top few eigengalaxies to reconstruct and subtract sources to detect arc-like artifacts.
+\item[] Gravitationally lensed images of galaxies have rare arc-like artifacts that can be used to calculate the mass of the lens. Detection and source subtraction are essential preprocessing steps for this. We used Anscombe denoising followed by PCA to build a basis for galaxy images and used the top few eigengalaxies to reconstruct and subtract sources to detect arc-like artifacts. Code \href{https://github.com/alankarkotwal/pca-lens-finder}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -153,7 +153,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{https://www.ee.iitb.ac.in/~viren/}{\textcolor{blue}{Prof. Virendra Singh}}, EE, IITB \hfill Autumn 2014-15} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] We designed, simulated and implemented a multi-cycle RISC processor following the LC-3b ISA. The implementation was done on a DE0-Nano board from Terasic. Following this, we designed and simulated a pipelined RISC processor using the Little Computer Architecture.
+\item[] We designed, simulated and implemented a \href{https://github.com/alankarkotwal/lc-3b-processor}{\textcolor{blue} {multi-cycle RISC processor}} following the LC-3b ISA. The implementation was done on a DE0-Nano board from Terasic. Following this, we designed and simulated a \href{https://github.com/alankarkotwal/lca-processor}{\textcolor{blue} {pipelined RISC processor}} using the Little Computer Architecture.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -170,16 +170,16 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \section{\sc Astrophysics \\Projects}
 
 {\bf An X-Ray Study of Black Hole Candidate X Norma X-1} \hfill \textit{\href{http://nius.hbcse.tifr.res.in/}{\textcolor{blue} {NIUS, Astronomy}}} \\
-{\em Guide: \href{http://cbs.ac.in/people/visiting-scientists/manojendu-choudhury}{\textcolor{blue}{Prof. Manojendu Choudhury}}, \href{http://cbs.ac.in/}{\textcolor{blue} {Center for Basic Sciences}}, University of Mumbai \hfill Dec 2013}
+{\em Guide: \href{http://cbs.ac.in/people/visiting-scientists/manojendu-choudhury}{\textcolor{blue}{Prof. Manojendu Choudhury}}, \href{http://cbs.ac.in/}{\textcolor{blue} {Center for Basic Sciences}} \hfill December 2013} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] We analyzed spectral data from the low-mass X-Ray Binary 4U 1630-47 (X Nor X-1) for the period between MJD 53829.3638299 and MJD 53950.93011. This period corresponds to an outburst in the source. The data is taken from the RXTE GOF archives. We extracted 3-30 keV spectra and fit them with a theoretical model which, in addition to the main radiation mechanism, takes into account interstellar extinction along the line of sight. The model for the main radiation mechanism consists of thermal emission from a geometrically thin and optically thick disk, and non-thermal radiation modeled by a power-law, presumably from a high energy Comptonizing cloud located inside the truncated disk, as well as emission of Compton radiation from the disk. We obtained best fit values of various parameters like the internal radius of the accretion disk, the internal temperature, flux in various bandpasses, relative magnitudes of the non-thermal Compton component and the thermal blackbody component.
+\item[] We analyzed spectral data from the low-mass X-Ray Binary 4U 1630-47 (X Nor X-1) for the period between MJD 53829.3638299 and MJD 53950.93011. This period corresponds to an outburst in the source. The data is taken from the RXTE GOF archives. We extracted 3-30 keV spectra and fit them with a theoretical model which, in addition to the main radiation mechanism, takes into account interstellar extinction along the line of sight. The model for the main radiation mechanism consists of thermal emission from a geometrically thin and optically thick disk, and non-thermal radiation modeled by a power-law, presumably from a high energy Comptonizing cloud located inside the truncated disk, as well as emission of Compton radiation from the disk. We obtained best fit values of various parameters like the internal radius of the accretion disk, the internal temperature, flux in various bandpasses, relative magnitudes of the non-thermal Compton component and the thermal blackbody component. Report \href{https://alankarkotwal.github.io/4U_1630-47_Report.pdf}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
 
 {\bf Estimation of Photometric Redshifts Using Machine Learning} \hfill \textit{\href{http://nius.hbcse.tifr.res.in/}{\textcolor{blue} {NIUS, Astronomy}}} \\
-{\em Guide: \href{http://www.iucaa.ernet.in/~nspp/}{\textcolor{blue}{Prof. Ninan Sajeeth Philip}}, \href{http://www.iucaa.ernet.in/}{\textcolor{blue} {IUCAA}}, Pune \hfill Dec 2012} \\
+{\em Guide: \href{http://www.iucaa.ernet.in/~nspp/}{\textcolor{blue}{Prof. Ninan Sajeeth Philip}}, \href{http://www.iucaa.ernet.in/}{\textcolor{blue} {IUCAA}}, Pune \hfill December 2012} \\
 \vspace*{-.15in}
 \begin{list1}
 \item[] Broad-band energies in color filters are used as inputs to a machine learning algorithm for determination of redshifts for objects whose spectra cannot be measured accurately. Here, we trained a two-layer neural network to calculate photometric redshifts for such objects and obtained good results. Often, data that we get from sources whose redshift is known from other methoda is not enough to train learning algorithms for prediction with reasonable accuracy. Hence, we worked on data generation from available data. We redshifted available spectra to determine how the object with a given spectrum would look like at a range of higher redshifts. From these redshifted spectra we extracted energies in color filters and used this (nearly 10-fold) expanded dataset to train the learning algorithm. We achieved good predictions for test data and observed clustering of galaxy colors as a function of increasing redshift.
@@ -210,7 +210,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \end{list1}
 
 {\bf \href{http://www.stab-iitb.org/krittika/the-cosmic-ladder-distance}{\textcolor{blue} {The Cosmic Distance Ladder}}} \hfill {\em Invited Talk} \\
-{\em \href{http://www.stab-iitb.org/krittika/}{\textcolor{blue} {Krittika -- The Astronomy Club, IIT Bombay}} \hfill Dec 2012} \\
+{\em \href{http://www.stab-iitb.org/krittika/}{\textcolor{blue} {Krittika -- The Astronomy Club, IIT Bombay}} \hfill September 2014} \\
 \vspace*{-.15in}
 \begin{list1}
 \item[] This open-to-all talk is a journey climbing the Cosmic Distance Ladder, which is a sequence of steps, each building on the previous step's results, for calculating distances in the universe. We begin with solar system distances, and end at huge distances where the only real option is to use photometric redshifts. This talk also presents results from my Google Summer of Code project. The presentation may be found \href{http://alankarkotwal.github.io/CosmicDistanceLadder.pptx}{\textcolor{blue} {here}}.
@@ -253,7 +253,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 
 \section{\sc Technical \\Skills} 
 \begin{tabular}{@{}p{1.3in}p{4.3in}}
-\textbf{Programming} & C/C++, Python, Shell Scripting, Matlab, SQL, HTML, PHP, \LaTeX \\  
+\textbf{Programming} & C/C++, Python, Bash, Matlab, Verilog, SQL, HTML, PHP, \LaTeX \\  
 \vspace*{-0.06in}
 \textbf{Software Packages} & 
 \vspace*{-0.06in}
