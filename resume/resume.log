@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  15 NOV 2015 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  15 NOV 2015 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -376,7 +376,7 @@ l.155 \begin{list1}
 ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.203 \section{\sc Talks \\and Seminars}
+l.203 \section{\sc Talks and \\Seminars}
                                          [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
 
