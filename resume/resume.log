@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  15 NOV 2015 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  15 NOV 2015 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -378,10 +378,6 @@ ier (name{page.}) has been already used, duplicate ignored
                    \relax 
 l.203 \section{\sc Talks \\and Seminars}
                                          [3]
-
-Package hyperref Warning: Suppressing link with empty target on input line 209.
-
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
 
 Overfull \hbox (18.0pt too wide) in paragraph at lines 275--287
@@ -437,10 +433,10 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (4 pages, 138722 bytes).
+Output written on resume.pdf (4 pages, 138772 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 142 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  10 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
