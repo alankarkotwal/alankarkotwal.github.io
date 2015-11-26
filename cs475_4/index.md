@@ -44,7 +44,7 @@ The first number is the absolute time, the second string is the frame number. Wi
 2 frames/frame-0102.txt 0
 3 frames/frame-0103.txt 0
 4 frames/frame-0104.txt 0
-``
+```
 
 the camera will interpolate a bezier curve through control points 1,2,3,4.
 
