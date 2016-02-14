@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  5 FEB 2016 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  15 FEB 2016 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,16 +371,16 @@ arning (ext4): destination with the same identifier (name{page.}) has been alre
 ady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.164 \begin{list1}
+l.160 \begin{list1}
                     [2]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.215 \section{\sc Talks and \\Seminars}
+l.225 \section{\sc Talks and \\Seminars}
                                          [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 288--300
+Overfull \hbox (18.0pt too wide) in paragraph at lines 298--310
 [][]
  []
 
@@ -388,12 +388,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.300 \end{document}
+l.310 \end{document}
                      [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 300.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
  5919 strings out of 493089
@@ -402,7 +402,7 @@ Here is how much of TeX's memory you used:
  9383 multiletter control sequences out of 15000+600000
  6262 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,21p,1492b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,21p,1057b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.7} has been referenced but does not exis
 t, replaced by a fixed one
 
@@ -433,7 +433,7 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (4 pages, 140355 bytes).
+Output written on resume.pdf (4 pages, 140083 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  151 compressed objects within 2 object streams
