@@ -1,0 +1,310 @@
+\documentclass[margin,line]{res}
+
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{color}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\name{\textbf{\huge{Alankar Kotwal}} \vspace*{.05in} \newline  {\sc Senior Undergraduate}\vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2.9in}p{.5in}p{3in}}
+Department of Electrical Engineering & \multicolumn{1}{r}{\it Phone:}  &(+91) 996 967 8123 \\            
+Indian Institute of Technology Bombay &\multicolumn{1}{r}{\it E--Mail:}& \href{mailto:alankar.kotwal@iitb.ac.in}{\textcolor{blue}{alankar.kotwal@iitb.ac.in}} \\ 
+281, Hostel 09, IIT Bombay & & \href{mailto:alankarkotwal13@gmail.com}{\textcolor{blue}{alankarkotwal13@gmail.com}} \\ 
+Powai, Mumbai, India 400 076 & \multicolumn{1}{r}{\it Webpage:} &\href{http://alankarkotwal.github.io/}{\textcolor{blue}{alankarkotwal.github.io}} \\     
+\end{tabular}
+
+\section{\sc Research Interests}
+I am passionate about Computer and Medical Vision, Machine Learning, Optimization, Estimation Theory, Astrophysics and Cosmology. I enjoy learning about and experimenting with Robotics, Computer Networks and Security, Computer Graphics and applications of these fields in one another.
+
+\section{\sc Education}
+{\bf \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}}}, Mumbai, India \hfill {\it July 2012 -- Present} \\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Dual Degree, Bachelor \& Master of Technology, Department of \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Electrical Engineering}}
+\item[] Specialization: {\em Communication and Signal Processing}
+\begin{list2}
+\vspace*{.05in}
+\item \textbf{Major CGPA:}  \ 8.83/10 (\hyperlink{crselst}{\textcolor{blue}{Detailed List of Courses}})
+\item \textbf{Minor Degree:}  Department of \href{http://www.cse.iitb.ac.in/}{\textcolor{blue}{Computer Science \& Engineering}}
+\end{list2}
+\end{list1}
+
+\section{\sc Publications}
+\begin{list2}
+\item Kotwal, A., Bhalodia, R., Awate, S., {\em Joint Desmoking and Denoising of Laparoscopy Images}, (to appear in) Proc. of the \href{http://biomedicalimaging.org/2016/}{\textcolor{blue} {International Symposium on Biomedical Imaging}}, 2016. %\href{http://alankarkotwal.github.io/pubs/lap.pdf}{\textcolor{blue} {here}}
+\item Clarke, J. D. A., Held, J. M., Dahl, A. {\em et al.}, {\em Field Robotics, Astrobiology and Mars Analogue Research on the Arkaroola Mars Robot Challenge Expedition}, Proc. of the \href{http://www.nssa.com.au/14asrc/14ASRC-proceedings.zip}{\textcolor{blue} {14th Australian Space Research Conference}}, 2014. Permalink to paper \href{http://alankarkotwal.github.io/pubs/Arkaroola.pdf}{\textcolor{blue} {here}}.
+\end{list2}
+
+\section{\sc Research Internships} 
+
+{\bf  \href{http://theairlab.org/}{\textcolor{blue}{The AIR Lab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}} \href{http://ri.cmu.edu/}{\textcolor{blue}{Robotics Institute}}} \\
+{\em Guide: \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Prof. Sebastian Scherer}} \& \href{http://www.ri.cmu.edu/person.html?person_id=2128}{\textcolor{blue} {Stephen Nuske}}}\hfill\textit{Summer 2015} \\
+\vspace*{-.13in}
+\begin{list1}
+\item[]\textbf{Stereo Odometry From A Downward-Facing Stereo Camera On A Vehicle} \\
+For aerial vehicles, odometry is often done by using sensors like the Pixhawk PX4FLOW, which use a single camera doing correlation-based tracking with a sonar for odometry. This has many disadvantages, like small camera field of view (small maximum speeds), bad sonar readings at low range (during take-off), requirement of an inertial unit for angle measurement and height-dependent camera focus. We aimed to replace this with a small-baseline stereo camera. With the field of view parallel to the baseline, the height of the vehicle is obtained from a robust estimate of horizontal disparity. Alternatively, height, pitch and roll are jointly estimated using a \textit{robust gradient-descent homography fit} between stereo pairs. Similar, \textit{rigid tracking across frames} is then used to measure position. We obtained better height estimates, maximum speeds and comparable accuracy without an inertial unit as compared to the PX4FLOW. Code \href{https://github.com/alankarkotwal/ground_odom}{\textcolor{blue} {here}}.
+\end{list1}
+
+{\bf \href{http://lcdm.astro.illinois.edu/}{\textcolor{blue} {Laboratory for Cosmological Data Mining}}, \href{http://www.illinois.edu/}{\textcolor{blue}{University of Illinois, Urbana -- Champaign}}} \\
+{\em Guide: \href{http://www.astro.illinois.edu/people/bigdog}{\textcolor{blue}{Prof. Robert Brunner}}, under \href{https://www.google-melange.com/gsoc/homepage/google/gsoc2014}{\textcolor{blue} {Google Summer of Code}}} \hfill {\it Summer 2014} \\
+\vspace*{-.13in}
+\begin{list1}
+\item[]\textbf{A Pixel-Level Machine Learning Method for Calculating Source Redshifts} \\
+Spectrometry is a prominent distance measurement technique in Astrophysics. Here, features in the spectrum (like emission or absorption lines) can be fit with known lines to obtain redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts, or alternatively classify them. Unlike previous work, we \textit{calculate features pixel-wise} instead of integrating over entire source area, giving benefits like \textit{source de-blending and better background separation}. Redshift calculation and source classification from the method are reasonably accurate. Code \href{https://github.com/alankarkotwal/image-photo-z/}{\textcolor{blue} {here}}.
+\end{list1}
+
+%\vspace{-.1cm}
+\newpage
+\section{\sc Research Projects}
+
+{\bf A New Bayesian Framework For Laparoscopic Image Dehazing and Denoising} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB} \hfill {\it January 2015 -- Present} \\
+\vspace*{-.13in}
+\begin{list1}
+\item[]
+Laparoscopic images in minimally invasive surgery get corrupted by surgical smoke and noise. This degrades the quality of the surgery and the results of further processing for, say, segmentation and tracking. Algorithms for desmoking and denoising laparoscopic images seem to be missing in the medical vision literature. We formulated the problem of joint desmoking and denoising of laparoscopic images as a Bayesian inference problem. This formulation relies on a novel probabilistic graphical model of images, which includes a Markov Random Field (MRF) formulation for color-contrast and another MRF for smoothness on the uncorrupted color image as well as the transmission-map image that indicates color attenuation due to smoke. The results on simulated and real-world laparoscopic images, with clinical expert evaluation, shows the advantages of our method over the state of the art. Code \href{https://github.com/alankarkotwal/lap-dehazing}{\textcolor{blue} {here}}.
+\end{list1}
+
+{\bf Coded Source Separation for Compressed Video Recovery} \hfill \textit{Dual Degree Thesis} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE, and \href{https://www.ee.iitb.ac.in/wiki/faculty/rajbabu}{\textcolor{blue}{Prof. V. Rajbabu}}, EE, IITB} \hfill {\it December 2015 -- Present} \\
+\vspace*{-.13in}
+\begin{list1}
+\item[]
+Recent efforts to apply the principles of compressed sensing to video data involve combining frames into coded snapshots while sensing and separating them with an over--complete dictionary. This works well, but needs a dictionary at the same frame--rate and time--smoothness as the video. We try relaxing this constraint using a source--separation approach to this problem where precise error bounds on recovery have been derived. Basis pursuit recovery with Gaussian--random sensing matrices gives excellent results with no ghosting for both similar and radically different images. Unfortunately, the more realizable non--negative sensing matrices don't work as well, because they do not have the nice incoherence properties of Gaussian--random matrices. We aim to design such sensing matrices with low mutual incoherence, making them ideal for compressed video.
+\end{list1}
+
+{\bf The IITB Mars Rover Project}
+%\\
+%{\em Guide: \href{http://www.aero.iitb.ac.in/~pjguru/}{\textcolor{blue}{Prof. PJ Guruprasad}}, Aerospace, IITB}
+\hfill {\it May 2013 -- Present} \\
+\vspace*{-.13in}
+\begin{list1}
+\item[]
+The IITB Mars Rover project is a student initiative at IIT Bombay to build a prototype Mars rover capable of extra-terrestrial robotics and to participate in the \href{http://urc.marssociety.org/}{\textcolor{blue} {University Rover Challenge}}. We designed and developed a rover with a \textit{rocker-bogie suspension and novel air-filled beach tires}. The electrical and software team designed power, logic and communication circuits for on-board control. We developed localization and autonomous navigation. The role of machine vision for automating rover operations was explored. We participated in a simulated Martian expedition and test Rover capabilities in the Australian outback, at the \href{http://marssociety.org.au/article/arkaroola-mars-robot-challenge-spaceward-bound-expedition}{\textcolor{blue} {Arkaroola Mars Robot Challenge}} and at the Mars Society's \href{http://mdrs.marssociety.org/}{\textcolor{blue} {Mars Desert Research Station}}, Utah.
+\end{list1}
+
+\section{\sc Course \\Projects}
+{\bf Improved Methods for Compressed Sensing Recovery} \hfill {\it CS709: Convex Optimization} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~ganesh/}{\textcolor{blue}{Prof. Ganesh Ramakrishnan}}, CSE, IITB \hfill Autumn 2015-16} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Using convex approximations to the compressed sensing recovery problem, we reconstructed near-exact versions of images at extremely low compressions, with proofs of correctness. Code \href{https://github.com/alankarkotwal/cs-rank-minimization}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Hidden Markov Model Part-of-Speech Tagging} \hfill \textit{EE638: Estimation and Identification} \\
+{\em Guide: \href{https://www.ee.iitb.ac.in/course/~ee638/Navin}{\textcolor{blue}{Prof. Navin Khaneja}}, EE, IITB \hfill Autumn 2015-16} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] We implemented part-of-speech tagging with support for unknown words. An error rate of around 5\% and capabilities of the system to discern context were observed. Code \href{https://github.com/alankarkotwal/pos-tagging}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Laparoscopic Image Dehazing With Dark Channel Prior} \hfill \textit{CS736: Medical Image Processing} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB \hfill Spring 2014-15} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] We applied the Dark Channel Prior method for landscape image dehazing to surgical smoke--affected laparoscopic images, accelerated it in time and got good results. Code \href{https://github.com/riddhishb/Laproscopic-Image-Dehazing}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Stereo Odometry Via Point Cloud Registration} \hfill \textit{CS763: Computer Vision} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE, IITB \hfill Spring 2014-15} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Maximizing kernel density correlation with gradient-ascent and coherent point drift, we registered pointclouds and observed good convergence behavior for small transformations. Code \href{https://github.com/alankarkotwal/stereo-vo}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Gravitational Lens Separation With PCA} \hfill \textit{CS663: Digital Image Processing} \\
+{\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}} and \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE, IITB \hfill Autumn 2014-15} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Gravitationally lensed images of galaxies have rare arc-like artifacts that can be used to calculate the mass of the lens. We used Anscombe denoising followed by PCA to build a basis for galaxy images and used the top few eigengalaxies to subtract sources and detect arcs. Code \href{https://github.com/alankarkotwal/pca-lens-finder}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Processor Design} \hfill \textit{EE309: Microprocessors} \\
+{\em Guide: \href{https://www.ee.iitb.ac.in/~viren/}{\textcolor{blue}{Prof. Virendra Singh}}, EE, IITB \hfill Autumn 2014-15} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] We designed, simulated and implemented (on a DE0-Nano board from Terasic) a \href{https://github.com/alankarkotwal/lc-3b-processor}{\textcolor{blue} {multi-cycle RISC processor}} following the LC-3b ISA. Following this, we designed and simulated a \href{https://github.com/alankarkotwal/lca-processor}{\textcolor{blue} {pipelined RISC processor}} using the Little Computer Architecture.
+\end{list1}
+
+\vspace*{-0.1in}
+
+\section{\sc Astrophysics \\Projects}
+{\bf Gamma Ray Bursts as Standard Candles} \hfill \textit{PH426: Astrophysics} \\
+{\em Guide: \href{https://sites.google.com/site/vikramrentalahome/}{\textcolor{blue}{Prof. Vikram Rentala}}, \textit{PH, IITB} \hfill Spring 2015-16} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] We did a literature survey on the phenomenon of Gamma Ray bursts, including observations, the internal mechanisms, observational techniques and open problems in the field. Using GRBs as standard candles for testing cosmological models interested us, and we are exploring the various correlations that exist among observables quantities of these phenomena for this.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Processing and Inference from CCD Images} \hfill \textit{\href{http://nius.hbcse.tifr.res.in/}{\textcolor{blue} {NIUS, Astronomy}}} \\
+{\em Guide: \href{http://http://manuu.ac.in/deptphysc_faclty.php/}{\textcolor{blue}{Prof. Priya Hasan}}, \href{http://manuu.ac.in/}{\textcolor{blue} {MANUU, Hyderabad}} \hfill December 2015} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] We analyzed raw data for the globular cluster NGC2419 taken at the \href{http://www.iiap.res.in/iao/cycle.html}{\textcolor{blue} {HCT}}, post-processed it to correct for detector bias and flat-fielding, inverted the effect of atmospheric mass and extracted the variation of magnitudes of stars in the cluster on the scale of a day. Code \href{hhttps://github.com/alankarkotwal/ngc2419-variables}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf An X-Ray Study of Black Hole Candidate X Norma X-1} \hfill \textit{\href{http://nius.hbcse.tifr.res.in/}{\textcolor{blue} {NIUS, Astronomy}}} \\
+{\em Guide: \href{http://cbs.ac.in/people/visiting-scientists/manojendu-choudhury}{\textcolor{blue}{Prof. Manojendu Choudhury}}, \href{http://cbs.ac.in/}{\textcolor{blue} {Center for Basic Sciences}} \hfill December 2013} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] We analyzed spectral data from the RXTE for the low-mass X-Ray Binary 4U 1630-47, in a period that corresponds to an outburst in the source. We extracted 3-30 keV spectra and fit them with a model accounting for thermal emission from a geometrically thin and optically thick disk, and non-thermal radiation modeled by a power-law, and interstellar extinction. We obtained best fit values of various system parameters like internal radius, temperature and so on. Report \href{https://alankarkotwal.github.io/4U_1630-47_Report.pdf}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
+
+{\bf Estimation of Photometric Redshifts Using Machine Learning} \hfill \textit{\href{http://nius.hbcse.tifr.res.in/}{\textcolor{blue} {NIUS, Astronomy}}} \\
+{\em Guide: \href{http://www.iucaa.ernet.in/~nspp/}{\textcolor{blue}{Prof. Ninan Sajeeth Philip}}, \href{http://www.iucaa.ernet.in/}{\textcolor{blue} {IUCAA}}, Pune \hfill December 2012} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Here, we trained a neural network to calculate photometric redshifts for objects whose spectroscopic redshifts cannot be measured, given data for sources whose spectrum has been measured, with their redshifts, viewed at various other values of redshifts. We used this (nearly 10-fold) expanded dataset to train the network. We achieved good predictions for test data and observed clustering of galaxy colors as a function of increasing redshift.
+\end{list1}
+
+\section{\sc Achievements \\and Awards}
+\begin{list2}
+\item[\strut\hspace{0.5cm}\textbf{Olympiads and Competitive Exams}]
+\item Represented India at the \href{http://www.ioaa2012.ufrj.br/}{\textcolor{blue} {$6^{th}$ International Olympiad on Astronomy and Astrophysics}}, Brazil, 2012. Won a Gold Medal with International Rank 4 and a special prize for Best Data Analysis
+\item Represented India at the \href{http://www.ieso2011.unimore.it/}{\textcolor{blue} {$5^{th}$ International Earth Sciences Olympiad}}, Italy, 2011. Won a Bronze Medal and prizes for best performance in the Hydrosphere section and the team presentation
+\item  Secured All India Rank (AIR) $105$ in \href{https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Joint_Entrance_Examination}{\textcolor{blue}{IIT-JEE}} amongst $1.1$ million candidates
+\vspace{0.05in}
+\item[\strut\hspace{0.5cm}\textbf{Scholarships}]
+\item Awarded \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{KVPY Scholarship}} $2011$ by Dept. of Science and Technology, Govt. of India
+\item Awarded \href{http://www.ncert.nic.in/programmes/talent_exam/index_talent.html}{\textcolor{blue}{NTSE Scholarship}} $2008$ by NCERT, Govt. of India
+\item[\strut\hspace{0.5cm}\textbf{Competitions}]
+\item Secured IIT Bombay the second position by putting on board 72 Messier objects including the entire Virgo cluster of galaxies in the \href[page=2]{https://www.iitbombay.org/iitb_dean_acr/february-newsletter-2014/2nd\%20Annual\%20Inter.pdf}{\textcolor{blue} {Inter-IIT Messier Marathon, 2014}}
+\item Won the Astronomy Quiz conducted by the Astronomy Club, IIT Bombay, 2012
+\end{list2}
+
+\section{\sc Talks and \\Seminars}
+
+{\bf Template-Based Stereo Odometry} \hfill {\em Invited Talk} \\
+{\em \href{http://theairlab.org/}{\textcolor{blue}{The AIR Lab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}} \hfill July 2015} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Here, I presented results from my 2015 summer internship to my group at Carnegie Mellon University. The talk included a detailed description of the method used, comparisons of the results with ground-truth and stress-tests on the method. Presentation \href{http://alankarkotwal.github.io/intern_presentation.pptx}{\textcolor{blue} {here}}.
+\end{list1}
+
+{\bf \href{http://www.stab-iitb.org/krittika/the-cosmic-ladder-distance}{\textcolor{blue} {The Cosmic Distance Ladder}}} \hfill {\em Invited Talk} \\
+{\em \href{http://www.stab-iitb.org/krittika/}{\textcolor{blue} {Krittika -- The Astronomy Club, IIT Bombay}} \hfill September 2014, February 2016} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] This open-to-all talk is a journey climbing the Cosmic Distance Ladder, which is a sequence of steps, each building on the previous step's results, for calculating distances in the universe. We begin with solar system distances, and end at huge distances where the only real option is to use photometric redshifts. Presentation \href{http://alankarkotwal.github.io/CosmicDistanceLadder.pptx}{\textcolor{blue} {here}}.
+\end{list1}
+
+
+\section{\sc Mentoring Experience}
+\textbf{Teaching Assistant}
+\begin{list1}
+\item[]CS663: Digital Image Processing \hspace{0.5cm} \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. S. Awate}} and \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. A. Rajwade}} \hfill{\textit{Autumn 2015-16}}
+\item[]CS736: Medical Image Processing \hspace{2cm} \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. S. Awate}}\hfill{\textit{Spring 2015-16}}
+\end{list1}
+
+\vspace*{-0.1in}
+
+\textbf{Resource Person, Indian Astronomy Olympiad Programme} \hfill \textit{May 2013, May 2014} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Selected twice as a resource person for the Indian Astronomy Olympiad Camp, for their selection to the international Astronomy Olympiads. Involved in mentoring students ranging from the $9^{th}$ to the $12^{th}$ grades in Astronomy, and in setting up challenging questions and evaluating students.
+\end{list1}
+
+\vspace*{-0.1in}
+
+\textbf{Technical Mentor}\hfill \textit{April 2013 -- March 2014} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Mentored $1^{st}$ year students for Robotics Competitions and Institute Technical Summer Projects.
+\end{list1}
+
+\section{\sc Key \\Coursework} 
+\begin{list1}
+\item[\strut\hspace{0.5cm}\hypertarget{crselst}{\textbf{Computer Sciences and Engineering}}]
+\item[]\textit{Machine Learning, Convex Optimization, Computer Vision, Medical Image Processing, Digital Image Processing, Computer Graphics, Computer Networks, Data Structures and Algorithms, Discrete Mathematics}
+\item[\strut\hspace{0.5cm}\textbf{Electrical Engineering}]
+\vspace{0.05in}
+\item[]\textit{Estimation and Identification, Adaptive Signal Processing, Digital Signal Processing, Speech Processing, Matrix Computations, Information Theory, Advanced Probability and Random Processes, Communication Networks and Systems, Microprocessors, Signals and Systems, Digital and Analog Systems, Electronic Devices and Circuits, Network Theory}
+\item[\strut\hspace{0.5cm}\textbf{Physics and Mathematics}]
+\vspace{0.05in}
+\item[]\textit{Astrophysics, The General Theory of Relativity, Electromagnetic Waves, Electricity \& Magnetism, Classical Mechanics, Differential Equations, Linear Algebra, Complex Analysis, Calculus}
+\end{list1}
+
+\section{\sc Technical \\Skills} 
+\begin{tabular}{@{}p{1.3in}p{4.3in}}
+\textbf{Programming} & C/C++, Python, Bash, Matlab, Verilog, SQL, HTML, PHP, \LaTeX \\  
+\vspace*{-0.06in}
+\textbf{Software Packages} & 
+\vspace*{-0.06in}
+ROS/Gazebo, OpenCV, The Point Cloud Library, SPICE Circuit Simulation, EAGLE PCB Design, SolidWorks, AutoCAD, LabView\\ 
+\vspace*{-0.06in}
+\textbf{Science Software} &
+\vspace*{-0.06in}
+Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn, Astropy, SExtractor, SDSS tools \\
+\vspace*{-0.06in}
+\textbf{Hardware} &
+\vspace*{-0.06in}
+\textit{Microprocessors:} 8051, 8085, AVR and PIC, CPLDs and FPGAs, \textit{Embedded Platforms:} Arduino, RaspberryPi, \textit{standard digital logic} \\     
+\end{tabular}
+
+\section{\sc Other \\Interests}
+Other than my academic interests, I like biking, long walks, swimming, socializing, cooking good food and eating it. I especially enjoy classic rock music and people who enjoy my interests.
+
+\section{\sc References} 
+\begin{tabular}{@{}p{3in}p{3in}}
+\textbf{Prof. Suyash Awate}, CSE & \textbf{Dr. Aniket Sule}, Reader \\ 
+Indian Institute of Technology, Bombay & Homi Bhabha Center for Science Education \\
+\href{mailto:suyash@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Webpage}} & \href{mailto:anikets@hbcse.tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.hbcse.tifr.res.in/people/academic/aniket-sule}{\textcolor{blue}{Webpage}}\\
+%\vspace*{0in}
+%\textbf{Prof. Tomislav Bujanovic}, EECS &  
+%\vspace*{0in}
+%\textbf{Prof. Bipin Rajendran}, EE\\
+%Syracuse University, NY, USA & Indian Institute of Technology, Bombay\\
+%\href{mailto:tbujanov@syr.edu}{\textcolor{blue}{E--Mail}} $|$ \href{http://eng-cs.syr.edu/about-the-college/faculty-and-staff/bujanovic}{\textcolor{blue}{Webpage}} & \href{mailto:rajendran.bipin@gmail.com}{\textcolor{blue}{E--Mail}} $|$ \href{https://sites.google.com/site/rajendranbipin/}{\textcolor{blue}{Webpage}}\\
+\end{tabular}
+\end{resume}
+\end{document}
