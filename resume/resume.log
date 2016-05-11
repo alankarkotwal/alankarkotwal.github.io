@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  16 APR 2016 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  11 MAY 2016 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,26 +362,26 @@ LaTeX Info: Redefining \nameref on input line 38.
 ) [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.327 \end{document}
+l.328 \end{document}
                      [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 327.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 328.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
  ) 
 Here is how much of TeX's memory you used:
- 5918 strings out of 493089
- 85850 string characters out of 6134843
+ 5917 strings out of 493089
+ 85835 string characters out of 6134843
  173153 words of memory out of 5000000
- 9383 multiletter control sequences out of 15000+600000
- 6262 words of font info for 23 fonts, out of 8000000 for 9000
+ 9382 multiletter control sequences out of 15000+600000
+ 5961 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,21p,439b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,21p,439b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.7} has been referenced but does not exis
 t, replaced by a fixed one
 
@@ -412,7 +412,7 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 130018 bytes).
+Output written on resume.pdf (2 pages, 129647 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
