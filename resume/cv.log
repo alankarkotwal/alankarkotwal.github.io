@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  11 MAY 2016 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  21 MAY 2016 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -310,28 +310,28 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count110
 ))
 No file cv.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    ... okay on input line 37.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 37.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -341,9 +341,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count111
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -359,7 +359,7 @@ LaTeX Info: Redefining \nameref on input line 36.
 \makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks26
 )
-Overfull \hbox (63.93893pt too wide) in paragraph at lines 44--50
+Overfull \hbox (63.93893pt too wide) in paragraph at lines 45--51
 [][] 
  []
 
@@ -370,16 +370,22 @@ arning (ext4): destination with the same identifier (name{page.}) has been alre
 ady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.161 \begin{list1}
-                    [2]pdfTeX warning (ext4): destination with the same identif
-ier (name{page.}) has been already used, duplicate ignored
+l.131 \section{\sc Course \\Projects}
+                                      [2]pdfTeX warning (ext4): destination wit
+h the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.226 \section{\sc Talks and \\Seminars}
-                                         [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
+l.219 \section{\sc Achievements \\ and Awards}
+                                               [3]pdfTeX warning (ext4): destin
+ation with the same identifier (name{page.}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.295 \section{\sc Technical \\Skills}
+                                       [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 299--311
+Overfull \hbox (18.0pt too wide) in paragraph at lines 319--331
 [][]
  []
 
@@ -387,12 +393,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.311 \end{document}
-                     [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 311.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
+l.331 \end{document}
+                     [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 331.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
  ) 
 Here is how much of TeX's memory you used:
  5896 strings out of 493089
@@ -401,20 +407,19 @@ Here is how much of TeX's memory you used:
  9373 multiletter control sequences out of 15000+600000
  5961 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,21p,1053b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,21p,1518b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv.pdf (4 pages, 139510 bytes).
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on cv.pdf (5 pages, 134307 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+ 145 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,9 +4,10 @@
 \usepackage{amsmath}
 \usepackage{textcomp}
 \usepackage{color}
-\oddsidemargin -.5in
-\evensidemargin -.5in
-\textwidth=6.0in
+\oddsidemargin = -.5in
+\evensidemargin = -.5in
+
+\textwidth = 6.0in
 \itemsep=0in
 \parsep=0in
 % if using pdflatex:
@@ -55,7 +56,7 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 {\bf \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}}}, Mumbai, India \hfill {\it July 2012 -- Present} \\
 \vspace*{-.1in}
 \begin{list1}
-\item[] Dual Degree, Bachelor \& Master of Technology, Department of \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Electrical Engineering}}
+\item[] Fifth Year, Dual Degree (Bachelor \& Master of Technology), Department of \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Electrical Engineering}}
 \item[] Specialization: {\em Communication and Signal Processing}
 \begin{list2}
 \vspace*{.05in}
@@ -73,7 +74,7 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 \section{\sc Research Internships} 
 
 {\bf  \href{http://theairlab.org/}{\textcolor{blue}{The AIR Lab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}} \href{http://ri.cmu.edu/}{\textcolor{blue}{Robotics Institute}}} \\
-{\em Guide: \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Prof. Sebastian Scherer}} \& \href{http://www.ri.cmu.edu/person.html?person_id=2128}{\textcolor{blue} {Stephen Nuske}}}\hfill\textit{Summer 2015} \\
+{\em Guide: \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Prof. Sebastian Schereasr}} \& \href{http://www.ri.cmu.edu/person.html?person_id=2128}{\textcolor{blue} {Stephen Nuske}}}\hfill\textit{Summer 2015} \\
 \vspace*{-.13in}
 \begin{list1}
 \item[]\textbf{Stereo Odometry From A Downward-Facing Stereo Camera On An Aerial Vehicle} \\
@@ -88,8 +89,17 @@ For aerial vehicles, odometry is often done by using sensors like the Pixhawk PX
 Spectrometry is a prominent distance measurement technique in Astrophysics. Here, features in the spectrum (like emission or absorption lines) can be fit with known lines to obtain redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts, or alternatively classify them. Unlike previous work, we \textit{calculate features pixel-wise} instead of integrating over entire source area, giving benefits like \textit{source de-blending and better background separation}. Redshift calculation and source classification from the method are reasonably accurate. Code \href{https://github.com/alankarkotwal/image-photo-z/}{\textcolor{blue} {here}}.
 \end{list1}
 
-%\vspace{-.1cm}
-\newpage
+{\bf Srujana -- Center for Innovation, \href{http://www.lvpei.org/}{\textcolor{blue}{L. V. Prasad Eye Institute}}} \\
+{\em Guide: \href{http://www.lvpei.org/our-team/our-team-ashutosh.php}{\textcolor{blue}{Ashutosh Richhariya}}} \hfill {\it Winter 2014} \\
+\vspace*{-.13in}
+\begin{list1}
+\item[]\textbf{Super--Resolution with Fourier Ptychographic Microscopy} \\
+The maximum number of independent samples that an imaging setup can extract from the imaged scene is dictated by the limits set by Fourier optics: if the imaged scene is wide--field, there are limits on how much one can zoom in. However, wide--field, high--resolution images are generally desirable in microscopy, pathology and eye imaging. Traditional methods to achieve this involve mechanical adjustment and require precise control and actuation. Fourier Ptychographic Microscopy was introduced in 2013 as a computational tool to work around this. The idea is to shift, in the Fourier domain, high--frequency information to low frequencies (where the system's optics do not filter it), sense it, and shift it back while reconstructing. We worked on implementing and understanding this method for microscopy slides, and analyzed possible extensions to imaging reflective surfaces like the eye.
+Code \href{https://github.com/alankarkotwal/lvp-imaging}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace{-.1cm}
+
 \section{\sc Research Projects}
 
 {\bf A New Bayesian Framework For Laparoscopic Image Dehazing and Denoising} \\
@@ -115,7 +125,7 @@ Recent efforts to apply the principles of compressed sensing to video data invol
 \vspace*{-.13in}
 \begin{list1}
 \item[]
-The IITB Mars Rover project is a student initiative at IIT Bombay to build a prototype Mars rover capable of extra-terrestrial robotics and to participate in the \href{http://urc.marssociety.org/}{\textcolor{blue} {University Rover Challenge}}. We designed and developed a rover with a \textit{rocker-bogie suspension and novel air-filled beach tires}. The electrical and software team designed power, logic and communication circuits for on-board control. We developed localization and autonomous navigation. The role of machine vision for automating rover operations was explored. We participated in a simulated Martian expedition and test Rover capabilities in the Australian outback, at the \href{http://marssociety.org.au/article/arkaroola-mars-robot-challenge-spaceward-bound-expedition}{\textcolor{blue} {Arkaroola Mars Robot Challenge}} and at the Mars Society's \href{http://mdrs.marssociety.org/}{\textcolor{blue} {Mars Desert Research Station}}, Utah.
+The IITB Mars Rover project is a student initiative at IIT Bombay to build a prototype Mars rover capable of extra-terrestrial robotics and to participate in the \href{http://urc.marssociety.org/}{\textcolor{blue} {University Rover Challenge}} at the Mars Society's \href{http://mdrs.marssociety.org/}{\textcolor{blue} {Mars Desert Research Station}}, Utah. The mechanical subsystem designed and developed a rover with a rocker-bogie suspension and novel air-filled beach tires. The electrical and software team designed power, logic and communication circuits for on-board control. Currently, localization and autonomous navigation are being developed. The role of machine vision for automating rover operations is being explored. One of the design goals for the future is to develop the capability to help astronauts on space missions. We participated in a simulated Martian expedition and tested Rover capabilities in the harsh conditions of the Australian outback, at the \href{http://marssociety.org.au/article/arkaroola-mars-robot-challenge-spaceward-bound-expedition}{\textcolor{blue} {Arkaroola Mars Robot Challenge}}. We participated in a series of exercises in Mars Operations Research, involving test extra--vehicular activities in space--suits (a sample collection task and a rover guidance task) conducted by \href{https://saberastro.com/}{\textcolor{blue} {Saber Astronautics}}. Details and pictures (coming up) \href{http://alankarkotwal.github.io/}{\textcolor{blue} {here}}.
 \end{list1}
 
 \section{\sc Course \\Projects}
@@ -171,8 +181,6 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \item[] We designed, simulated and implemented (on a DE0-Nano board from Terasic) a \href{https://github.com/alankarkotwal/lc-3b-processor}{\textcolor{blue} {multi-cycle RISC processor}} following the LC-3b ISA. Following this, we designed and simulated a \href{https://github.com/alankarkotwal/lca-processor}{\textcolor{blue} {pipelined RISC processor}} using the Little Computer Architecture.
 \end{list1}
 
-\vspace*{-0.1in}
-
 \section{\sc Astrophysics \\Projects}
 {\bf Detecting Short Gamma Ray Bursts in Astrosat CZTI Data} \hfill \textit{PH426: Astrophysics} \\
 {\em Guide: \href{https://sites.google.com/site/vikramrentalahome/}{\textcolor{blue}{Prof. Vikram Rentala}}, \textit{PH, IITB} \hfill Spring 2015-16} \\
@@ -196,7 +204,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{http://cbs.ac.in/people/visiting-scientists/manojendu-choudhury}{\textcolor{blue}{Prof. Manojendu Choudhury}}, \href{http://cbs.ac.in/}{\textcolor{blue} {Center for Basic Sciences}} \hfill December 2013} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] We analyzed spectral data from the RXTE for the low-mass X-Ray Binary 4U 1630-47, in a period that corresponds to an outburst in the source. We extracted 3-30 keV spectra and fit them with a model accounting for thermal emission from a geometrically thin and optically thick disk, and non-thermal radiation modeled by a power-law, and interstellar extinction. We obtained best fit values of various system parameters like internal radius, temperature and so on. Report \href{https://alankarkotwal.github.io/4U_1630-47_Report.pdf}{\textcolor{blue} {here}}.
+\item[] We analyzed spectral data from the RXTE for the low-mass X-Ray Binary 4U 1630-47, for an outburst in the source. We extracted 3-30 keV spectra and fit them with a model accounting for disk blackbody radiation, non-thermal power-law radiation, and interstellar extinction. We obtained best fit values of system parameters like internal radius and temperature. Report \href{https://alankarkotwal.github.io/4U_1630-47_Report.pdf}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -205,14 +213,14 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{http://www.iucaa.ernet.in/~nspp/}{\textcolor{blue}{Prof. Ninan Sajeeth Philip}}, \href{http://www.iucaa.ernet.in/}{\textcolor{blue} {IUCAA}}, Pune \hfill December 2012} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] Here, we trained a neural network to calculate photometric redshifts for objects whose spectroscopic redshifts cannot be measured, given data for sources whose spectrum has been measured, with their redshifts, viewed at various other values of redshifts. We used this (nearly 10-fold) expanded dataset to train the network. We achieved good predictions for test data and observed clustering of galaxy colors as a function of increasing redshift.
+\item[] Here, we trained a neural network for photometric redshifts, given data for sources whose spectra and redshifts have been measured. We predicted spectra for these objects viewed at various other values of redshifts. Using this expanded dataset, we achieved good predictions for test data.
 \end{list1}
 
-\section{\sc Achievements \\and Awards}
+\section{\sc Achievements \\ and Awards}
 \begin{list2}
 \item[\strut\hspace{0.5cm}\textbf{Olympiads and Competitive Exams}]
-\item Represented India at the \href{http://www.ioaa2012.ufrj.br/}{\textcolor{blue} {$6^{th}$ International Olympiad on Astronomy and Astrophysics}}, Brazil, 2012. Won a Gold Medal with International Rank 4 and a special prize for Best Data Analysis
-\item Represented India at the \href{http://www.ieso2011.unimore.it/}{\textcolor{blue} {$5^{th}$ International Earth Sciences Olympiad}}, Italy, 2011. Won a Bronze Medal and prizes for best performance in the Hydrosphere section and the team presentation
+\item Represented India at the \href{http://www.ioaa2012.ufrj.br/}{\textcolor{blue} {$6^\text{th}$ International Olympiad on Astronomy and Astrophysics}}, Brazil, 2012. Won a Gold Medal with International Rank 4 and a special prize for Best Data Analysis
+\item Represented India at the \href{http://www.ieso2011.unimore.it/}{\textcolor{blue} {$5^\text{th}$ International Earth Sciences Olympiad}}, Italy, 2011. Won a Bronze Medal and prizes for best performance in the Hydrosphere section and the team presentation
 \item  Secured All India Rank (AIR) $105$ in \href{https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Joint_Entrance_Examination}{\textcolor{blue}{IIT-JEE}} amongst $1.1$ million candidates
 \vspace{0.05in}
 \item[\strut\hspace{0.5cm}\textbf{Scholarships}]
@@ -220,10 +228,18 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \item Awarded \href{http://www.ncert.nic.in/programmes/talent_exam/index_talent.html}{\textcolor{blue}{NTSE Scholarship}} $2008$ by NCERT, Govt. of India
 \item[\strut\hspace{0.5cm}\textbf{Competitions}]
 \item Secured IIT Bombay the second position by putting on board 72 Messier objects including the entire Virgo cluster of galaxies in the \href[page=2]{https://www.iitbombay.org/iitb_dean_acr/february-newsletter-2014/2nd\%20Annual\%20Inter.pdf}{\textcolor{blue} {Inter-IIT Messier Marathon, 2014}}
-\item Won the Astronomy Quiz conducted by the Astronomy Club, IIT Bombay, 2012
+%\item Won the Astronomy Quiz conducted by the Astronomy Club, IIT Bombay, 2012
 \end{list2}
 
-\section{\sc Talks and \\Seminars}
+\section{\sc Key Talks \\ and Seminars}
+{\bf Coded Source Separation for Compressed Video Recovery} \hfill {\em Dual Degree Thesis Talk} \\
+{\em \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Department of Electrical Engineering}}, \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}} \hfill May 2016} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Here, I presented results from the first stage of my dual degree thesis. Presentation \href{http://alankarkotwal.github.io/sre.pptx}{\textcolor{blue} {here}}.
+\end{list1}
+
+\vspace*{-0.1in}
 
 {\bf Template-Based Stereo Odometry} \hfill {\em Invited Talk} \\
 {\em \href{http://theairlab.org/}{\textcolor{blue}{The AIR Lab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}} \hfill July 2015} \\
@@ -232,16 +248,17 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \item[] Here, I presented results from my 2015 summer internship to my group at Carnegie Mellon University. The talk included a detailed description of the method used, comparisons of the results with ground-truth and stress-tests on the method. Presentation \href{http://alankarkotwal.github.io/intern_presentation.pptx}{\textcolor{blue} {here}}.
 \end{list1}
 
+\vspace*{-0.1in}
+
 {\bf \href{http://www.stab-iitb.org/krittika/the-cosmic-ladder-distance}{\textcolor{blue} {The Cosmic Distance Ladder}}} \hfill {\em Invited Talk} \\
 {\em \href{http://www.stab-iitb.org/krittika/}{\textcolor{blue} {Krittika -- The Astronomy Club, IIT Bombay}} \hfill September 2014, February 2016} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] This open-to-all talk is a journey climbing the Cosmic Distance Ladder, which is a sequence of steps, each building on the previous step's results, for calculating distances in the universe. We begin with solar system distances, and end at huge distances where the only real option is to use photometric redshifts. Presentation \href{http://alankarkotwal.github.io/CosmicDistanceLadder.pptx}{\textcolor{blue} {here}}.
+\item[] This open-to-all popular talk is climbs the Cosmic Distance Ladder, a sequence of steps, each building on the previous step's results, for calculating distances in the universe. We begin with solar system distances, and end at enormous distances where the only option is using indirect methods like photometric redshifts. Presentation \href{http://alankarkotwal.github.io/CosmicDistanceLadder.pptx}{\textcolor{blue} {here}}.
 \end{list1}
 
-
 \section{\sc Mentoring Experience}
-\textbf{Teaching Assistant}
+\textbf{Teaching Assistant for IITB Courses}
 \begin{list1}
 \item[]CS663: Digital Image Processing \hspace{0.5cm} \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. S. Awate}} and \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. A. Rajwade}} \hfill{\textit{Autumn 2015-16}}
 \item[]CS736: Medical Image Processing \hspace{2cm} \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. S. Awate}}\hfill{\textit{Spring 2015-16}}
@@ -252,7 +269,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \textbf{Resource Person, Indian Astronomy Olympiad Programme} \hfill \textit{May 2013, May 2014} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] Selected twice as a resource person for the Indian Astronomy Olympiad Camp, for their selection to the international Astronomy Olympiads. Involved in mentoring students ranging from the $9^{th}$ to the $12^{th}$ grades in Astronomy, and in setting up challenging questions and evaluating students.
+\item[] Selected twice as a resource person for the Indian Astronomy Olympiad Camp, for their selection to the international Astronomy Olympiads. Involved in mentoring students ranging from the $9^\text{th}$ to the $12^\text{th}$ grades in Astronomy, and in setting up challenging questions and evaluating students.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -260,13 +277,13 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \textbf{Technical Mentor}\hfill \textit{April 2013 -- March 2014} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] Mentored $1^{st}$ year students for Robotics Competitions and Institute Technical Summer Projects.
+\item[] Mentored $1^\text{st}$ year students for Robotics Competitions and contributed towards generation of ideas and debugging for Institute Technical Summer Projects. Member of the Electronics club.
 \end{list1}
 
 \section{\sc Key \\Coursework} 
 \begin{list1}
 \item[\strut\hspace{0.5cm}\hypertarget{crselst}{\textbf{Computer Sciences and Engineering}}]
-\item[]\textit{Machine Learning, Convex Optimization, Computer Vision, Medical Image Processing, Digital Image Processing, Computer Graphics, Computer Networks, Data Structures and Algorithms, Discrete Mathematics}
+\item[]\textit{Computer Vision, Medical Image Processing, Digital Image Processing, Machine Learning, Convex Optimization, Graphics, Networks, Data Structures, Algorithms, Discrete Mathematics}
 \item[\strut\hspace{0.5cm}\textbf{Electrical Engineering}]
 \vspace{0.05in}
 \item[]\textit{Estimation and Identification, Adaptive Signal Processing, Digital Signal Processing, Speech Processing, Matrix Computations, Information Theory, Advanced Probability and Random Processes, Communication Networks and Systems, Microprocessors, Signals and Systems, Digital and Analog Systems, Electronic Devices and Circuits, Network Theory}
@@ -291,6 +308,9 @@ Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn, Astropy, SE
 \vspace*{-0.06in}
 \textit{Microprocessors:} 8051, 8085, AVR and PIC, CPLDs and FPGAs, \textit{Embedded Platforms:} Arduino, RaspberryPi, \textit{standard digital logic} \\     
 \end{tabular}
+
+\section{\sc Languages}
+English, Hindi (working knowledge), Marathi (first language), Sanskrit (elementary knowledge)
 
 \section{\sc Other \\Interests}
 Other than my academic interests, I like biking, long walks, swimming, socializing, cooking good food and eating it. I especially enjoy classic rock music and people who enjoy my interests.
