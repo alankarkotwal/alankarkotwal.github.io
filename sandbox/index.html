@@ -14,7 +14,7 @@
         <meta charset="utf-8">
 
         <!-- Site Title -->
-        <title>Alankar's Planet</title>
+        <title>Alankar Kotwal</title>
         
         <!--
         Google Fonts
@@ -40,8 +40,17 @@
         <link rel="stylesheet" href="css/responsive.css">
 		
 		
-		<!-- Modernizer Script for old Browsers -->
+	<!-- Modernizer Script for old Browsers -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://fancyapps.com/fancybox/source/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	        $(".iframe").fancybox({
+	            type: 'iframe'
+		});
+	    });
+	</script>
 		
 	<style>
 	.black_overlay{
@@ -65,7 +74,7 @@
 	    width: 50%;
 	    height: 50%;
 	    padding: 16px;
-	    border: 16px solid orange;
+	    border: 16px solid #00C7FC;
 	    background-color: white;
 	    z-index:1002;
 	    overflow: auto;
@@ -273,19 +282,6 @@
         
         <section id="service-bottom">
             <div class="container">
-                    <div class="mobile-device">
-                       <img data-wow-delay="0.2s" class="img-responsive black  wow fadeInLeftBig" src="img/icons/iphone-black.png" alt="iPhone Black">
-                        <img data-wow-delay="0.5s" class="img-responsive white  wow fadeInLeftBig" src="img/icons/iphone-white.png" alt="iPhone White">
-                    </div>
-                <div class="service-features wow fadeInRight">
-                    <h3>OUR DESIGNS COMES WITH...</h3>
-                    <ul>
-                        <li>Responsive Design</li>
-                        <li>Modern And Clean Design</li>
-                        <li>Clean Code</li>
-                        <li>Browser Friendly</li>
-                    </ul>
-                </div>
             </div>
         </section>
         <!--
@@ -298,94 +294,96 @@
         ========================== -->
         
         <section id="projects">
-
+            
             <div class="section-title text-center wow fadeInDown">
                 <h2>Projects</h2>    
-                <p>I will write about my projects here</p>
+                <h4>Here is a catagorized list of my projects.</h4>
             </div>
             
             <nav class="project-filter clearfix text-center wow fadeInLeft"  data-wow-delay="0.5s">
                 <ul class="list-inline">
                     <li><a href="javascript:;" class="filter" data-filter="all">All</a></li>
                     <li><a href="javascript:;" class="filter" data-filter=".robotics">Robotics</a></li>
-                    <li><a href="javascript:;" class="filter" data-filter=".cv">Computer Vision</a></li>
-                    <li><a href="javascript:;" class="filter" data-filter=".mv">Medical Vision</a></li>
-                    <li><a href="javascript:;" class="filter" data-filter=".mlo">Machine Learning and Optimization</a></li>
+                    <li><a href="javascript:;" class="filter" data-filter=".cv">Computer & Medical Vision</a></li>
+                    <li><a href="javascript:;" class="filter" data-filter=".mlo">Machine Learning & Optimization</a></li>
                     <li><a href="javascript:;" class="filter" data-filter=".astroph">Astrophysics</a></li>
+                    <li><a href="javascript:;" class="filter" data-filter=".others">Others</a></li>
                 </ul>
             </nav>
 
             <div id="projects" class="clearfix">
 
-                <figure class="mix portfolio-item robotics">
-                    <img class="img-responsive" src="img/portfolio/portfolio-1.jpg" alt="Portfolio Item">
-                    <a href="img/portfolio/portfolio-1.jpg" title="Title One" rel="portfolio" class="fancybox"><span class="plus"></span></a>
+                <figure class="mix portfolio-item robotics cv">
+                    <img class="img-responsive" src="img/portfolio/rover.jpg" alt="Portfolio Item">
+		    <a class="iframe" href="portfolio/rover.html"><span class="plus"></span></a>
                     <figcaption class="mask">
-                        <h3>Awesome Image</h3>
-                        <span>Photography</span>
+                        <h3>The IITB Mars Rover Project</h3>
+                        <span>Indian Institute of Technology Bombay</span>
+                    </figcaption>
+                </figure>
+		<div>
+
+                <figure class="mix portfolio-item robotics cv">
+                    <img class="img-responsive" src="img/portfolio/duo.jpg" alt="Portfolio Item">
+		    <a class="iframe" href="portfolio/ground_odom.html"><span class="plus"></span></a>
+                    <figcaption class="mask">
+                        <h3>Stereo Odometry on Drones</h3>
+                        <span>Carnegie Mellon University Robotics Institute</span>
+                    </figcaption>
+                </figure>
+		<div>
+
+                <figure class="mix portfolio-item cv">
+                    <img class="img-responsive" src="img/portfolio/lap.jpg" alt="Portfolio Item">
+		    <a class="iframe" href="portfolio/laparoscopy.html"><span class="plus"></span></a>
+                    <figcaption class="mask">
+                        <h3>Laparoscopy Image Enhancement</h3>
+                        <span>Indian Institute of Technology Bombay</span>
+                    </figcaption>
+                </figure>
+
+                <figure class="mix portfolio-item mlo cv">
+                    <img class="img-responsive" src="img/portfolio/coded_sourcesep.jpg" alt="Portfolio Item">
+		    <a class="iframe" href="portfolio/coded_sourcesep.html"><span class="plus"></span></a>
+                    <figcaption class="mask">
+                        <h3>Coded Video Compressed Sensing</h3>
+                        <span>Indian Institute of Technology Bombay</span>
+                    </figcaption>
+                </figure>
+
+                <figure class="mix portfolio-item astroph mlo">
+                    <img class="img-responsive" src="img/portfolio/photo_z.png" alt="Portfolio Item">
+		    <a class="iframe" href="portfolio/photo_z.html"><span class="plus"></span></a>
+                    <figcaption class="mask">
+                        <h3>Pixel-level Photometric Redshifts</h3>
+                        <span>University of Illinois at Urbana-Champaign</span>
                     </figcaption>
                 </figure>
 
                 <figure class="mix portfolio-item cv">
-                    <img class="img-responsive" src="img/portfolio/portfolio-2.jpg" alt="Portfolio Item">
-                    <a href="img/portfolio/portfolio-2.jpg" title="Title Two" rel="portfolio" class="fancybox"><span class="plus"></span></a>
+                    <img class="img-responsive" src="img/portfolio/fpm.jpg" alt="Portfolio Item">
+		    <a class="iframe" href="portfolio/fpm.html"><span class="plus"></span></a>
                     <figcaption class="mask">
-                        <h3>Awesome Image</h3>
-                        <span>Photography</span>
+                        <h3>Fourier Ptychographic Microscopy</h3>
+                        <span>L. V. Prasad Eye Institute</span>
                     </figcaption>
                 </figure>
 
-                <figure class="mix portfolio-item mv">
-                    <img class="img-responsive" src="img/portfolio/portfolio-3.jpg" alt="Portfolio Item">
-                    <a href="img/portfolio/portfolio-3.jpg" title="Title Three" rel="portfolio" class="fancybox"><span class="plus"></span></a>
+                <figure class="mix portfolio-item cv mlo">
+                    <img class="img-responsive" src="img/portfolio/sca.png" alt="Portfolio Item">
+		    <a class="iframe" href="portfolio/sca.html"><span class="plus"></span></a>
                     <figcaption class="mask">
-                        <h3>Awesome Image</h3>
-                        <span>Photography</span>
+                        <h3>Conved Approximations for Compressed Sensing</h3>
+                        <span>Indian Institute of Technology Bombay<span>
                     </figcaption>
                 </figure>
 
                 <figure class="mix portfolio-item mlo">
-                    <img class="img-responsive" src="img/portfolio/portfolio-4.jpg" alt="Portfolio Item">
-                    <a href="img/portfolio/portfolio-4.jpg" title="Title Four" rel="portfolio" class="fancybox"><span class="plus"></span></a>
+                    <img class="img-responsive" src="img/portfolio/hmm.jpg" alt="Portfolio Item">
+		    <a class="iframe" href="portfolio/pos.html"><span class="plus"></span></a>
                     <figcaption class="mask">
-                        <h3>Awesome Image</h3>
-                        <span>Photography</span>
-                    </figcaption>
-                </figure>
-
-                <figure class="mix portfolio-item astroph">
-                    <img class="img-responsive" src="img/portfolio/portfolio-4.jpg" alt="Portfolio Item">
-                    <a href="img/portfolio/portfolio-4.jpg" title="Title Five" rel="portfolio" class="fancybox"><span class="plus"></span></a>
-                    <figcaption class="mask">
-                        <h3>Awesome Image</h3>
-                        <span>Photography</span>
-                    </figcaption>
-                </figure>
-
-                <figure class="mix portfolio-item cv">
-                    <img class="img-responsive" src="img/portfolio/portfolio-1.jpg" alt="Portfolio Item">
-                    <a href="img/portfolio/portfolio-1.jpg" title="Title Six" rel="portfolio" class="fancybox"><span class="plus"></span></a>
-                    <figcaption class="mask">
-                        <h3>Awesome Image</h3>
-                        <span>Photography</span>
-                    </figcaption>
-                </figure>
-
-                <figure class="mix portfolio-item cv astroph">
-                    <img class="img-responsive" src="img/portfolio/portfolio-2.jpg" alt="Portfolio Item">
-                    <a href="img/portfolio/portfolio-2.jpg" title="Title Seven" rel="portfolio" class="fancybox"><span class="plus"></span></a>
-                    <figcaption class="mask">
-                        <h3>Awesome Image</h3>
-                        <span>Photography</span>
-                    </figcaption>
-                </figure>
-
-                <figure class="mix portfolio-item cv mv">
-                    <img class="img-responsive" src="img/portfolio/portfolio-3.jpg" alt="Portfolio Item">
-                    <a href="img/portfolio/portfolio-3.jpg" title="Title Eight" rel="portfolio" class="fancybox"><span class="plus"></span></a>
-                    <figcaption class="mask">
-                        <h3>Awesome Image</h3>
-                        <span>Photography</span>
+                        <h3>Part-of-Speech Tagging</h3>
+                        <span>Indian Institute of Technology Bombay</span>
                     </figcaption>
                 </figure>
 
