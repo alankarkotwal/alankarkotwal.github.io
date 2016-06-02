@@ -69,7 +69,7 @@ body > section {
 
 .section-title {
   margin: 0 auto 85px;
-  width: 420px;
+  /*width: 420px;*/
 }
 
 .section-title h2 {
