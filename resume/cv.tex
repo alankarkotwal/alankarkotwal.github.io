@@ -4,6 +4,7 @@
 \usepackage{amsmath}
 \usepackage{textcomp}
 \usepackage{color}
+\usepackage{lettrine}
 \oddsidemargin = -.5in
 \evensidemargin = -.5in
 
@@ -50,13 +51,13 @@ Powai, Mumbai, India 400 076 & \multicolumn{1}{r}{\it Webpage:} &\href{http://al
 \end{tabular}
 
 \section{\sc Research Interests}
-I am passionate about Computer and Medical Vision, Machine Learning, Optimization, Estimation Theory, Astrophysics and Cosmology. I enjoy learning about and experimenting with Robotics, Computer Networks and Security, Computer Graphics and applications of these fields in one another.
+\lettrine[lines=2]{I}{} am passionate about Computer and Medical Vision, Compressed Sensing, Machine Learning, Optimization, Astrophysics and Cosmology. I enjoy learning about and experimenting with Robotics, Computer Networks and Security, Graphics and applications of these fields in one another.
 
 \section{\sc Education}
 {\bf \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}}}, Mumbai, India \hfill {\it July 2012 -- Present} \\
 \vspace*{-.1in}
 \begin{list1}
-\item[] Fifth Year, Dual Degree (Bachelor \& Master of Technology), Department of \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Electrical Engineering}}
+\item[] Final Year, Dual Degree (Bachelor \& Master of Technology), Department of \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Electrical Engineering}}
 \item[] Specialization: {\em Communication and Signal Processing}
 \begin{list2}
 \vspace*{.05in}
@@ -74,11 +75,11 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 \section{\sc Research Internships} 
 
 {\bf  \href{http://theairlab.org/}{\textcolor{blue}{The AIR Lab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}} \href{http://ri.cmu.edu/}{\textcolor{blue}{Robotics Institute}}} \\
-{\em Guide: \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Prof. Sebastian Scherer}} \& \href{http://www.ri.cmu.edu/person.html?person_id=2128}{\textcolor{blue} {Stephen Nuske}}}\hfill\textit{Summer 2015} \\
+{\em Guide: \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Prof. Sebastian Scherer}} \& \href{http://www.ri.cmu.edu/person.html?person_id=2128}{\textcolor{blue} {Stephen Nuske}}} \hfill {\it Summer 2015} \\
 \vspace*{-.13in}
 \begin{list1}
 \item[]\textbf{Stereo Odometry From A Downward-Facing Stereo Camera On An Aerial Vehicle} \\
-For aerial vehicles, odometry is often done by using sensors like the Pixhawk PX4FLOW, which use a single camera doing correlation-based tracking with a sonar for odometry. This has many disadvantages, like small camera field of view (small maximum speeds), bad sonar readings at low range (during take-off), requirement of an inertial unit for angle measurement and height-dependent camera focus. We aimed to replace this with a small-baseline stereo camera. With the field of view parallel to the baseline, the height of the vehicle is obtained from a robust estimate of horizontal disparity. Alternatively, height, pitch and roll are jointly estimated using a \textit{robust gradient-descent homography fit} between stereo pairs. Similar, \textit{rigid tracking across frames} is then used to measure position. We obtained better height estimates, maximum speeds and comparable accuracy without an inertial unit as compared to the PX4FLOW. Code \href{https://github.com/alankarkotwal/ground_odom}{\textcolor{blue} {here}}.
+For aerial vehicles, odometry is often done by using sensors like the Pixhawk PX4FLOW, which use a single camera doing correlation-based tracking with a sonar for odometry. This has many disadvantages, like small camera field of view (small maximum speeds), bad sonar readings at low range (during take-off), requirement of an inertial unit for angle measurement and height-dependent camera focus. We aimed to replace this with a small-baseline stereo camera. With the field of view parallel to the baseline, the height of the vehicle is obtained from a robust estimate of horizontal disparity. Alternatively, height, pitch and roll are jointly estimated using a robust gradient-descent homography fit between stereo pairs. Similar, rigid tracking across frames is then used to measure position. We obtained better height estimates, maximum speeds and comparable accuracy without an inertial unit as compared to the PX4FLOW. Code \href{https://github.com/alankarkotwal/ground_odom}{\textcolor{blue} {here}}.
 \end{list1}
 
 {\bf \href{http://lcdm.astro.illinois.edu/}{\textcolor{blue} {Laboratory for Cosmological Data Mining}}, \href{http://www.illinois.edu/}{\textcolor{blue}{University of Illinois, Urbana -- Champaign}}} \\
@@ -86,7 +87,7 @@ For aerial vehicles, odometry is often done by using sensors like the Pixhawk PX
 \vspace*{-.13in}
 \begin{list1}
 \item[]\textbf{A Pixel-Level Machine Learning Method for Calculating Source Redshifts} \\
-Spectrometry is a prominent distance measurement technique in Astrophysics. Here, features in the spectrum (like emission or absorption lines) can be fit with known lines to obtain redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts, or alternatively classify them. Unlike previous work, we \textit{calculate features pixel-wise} instead of integrating over entire source area, giving benefits like \textit{source de-blending and better background separation}. Redshift calculation and source classification from the method are reasonably accurate. Code \href{https://github.com/alankarkotwal/image-photo-z/}{\textcolor{blue} {here}}.
+Spectrometry is a prominent distance measurement technique in Astrophysics. Here, features in the spectrum (like emission or absorption lines) can be fit with known lines to obtain redshift, which is a measure of distance at cosmologically significant distances. However, there exist sources which are either very far or very dim, so we do not get enough flux from them to measure their spectrum. Broad-band energies from these sources, as an approximation to the entire spectrum, are used as features for a machine learning algorithm to calculate redshifts, or alternatively classify them. Unlike previous work, we calculate features pixel-wise instead of integrating over entire source area, giving benefits like source de-blending and better background separation. Redshift calculation and source classification from the method are reasonably accurate. Code \href{https://github.com/alankarkotwal/image-photo-z/}{\textcolor{blue} {here}}.
 \end{list1}
 
 {\bf Srujana -- Center for Innovation, \href{http://www.lvpei.org/}{\textcolor{blue}{L. V. Prasad Eye Institute}}} \\
@@ -102,7 +103,7 @@ Code \href{https://github.com/alankarkotwal/lvp-imaging/tree/parallel}{\textcolo
 
 \section{\sc Research Projects}
 
-{\bf A New Bayesian Framework For Laparoscopic Image Dehazing and Denoising} \\
+{\bf A Bayesian Framework For Laparoscopic Image Dehazing and Denoising} \\
 {\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB} \hfill {\it January 2015 -- Present} \\
 \vspace*{-.13in}
 \begin{list1}
@@ -302,11 +303,11 @@ ROS/Gazebo, OpenCV, The Point Cloud Library, SPICE Circuit Simulation, EAGLE PCB
 \vspace*{-0.06in}
 \textbf{Science Software} &
 \vspace*{-0.06in}
-Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn, Astropy, SExtractor, SDSS tools \\
+Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn, Astropy, SDSS tools \\
 \vspace*{-0.06in}
 \textbf{Hardware} &
 \vspace*{-0.06in}
-\textit{Microprocessors:} 8051, 8085, AVR and PIC, CPLDs and FPGAs, \textit{Embedded Platforms:} Arduino, RaspberryPi, \textit{standard digital logic} \\     
+\textit{Microprocessors:} 8051, 8085, AVR and PIC, CPLDs and FPGAs, \textit{Embedded Platforms:} Arduino, Raspberry Pi, NVIDIA Jetson TK1 \textit{standard digital logic families} \\     
 \end{tabular}
 
 \section{\sc Languages}
@@ -317,15 +318,17 @@ Other than my academic interests, I like biking, long walks, swimming, socializi
 
 \section{\sc References} 
 \begin{tabular}{@{}p{3in}p{3in}}
-\textbf{Prof. Suyash Awate}, CSE & \textbf{Dr. Aniket Sule}, Reader \\ 
-Indian Institute of Technology, Bombay & Homi Bhabha Center for Science Education \\
-\href{mailto:suyash@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Webpage}} & \href{mailto:anikets@hbcse.tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.hbcse.tifr.res.in/people/academic/aniket-sule}{\textcolor{blue}{Webpage}}\\
-%\vspace*{0in}
-%\textbf{Prof. Tomislav Bujanovic}, EECS &  
-%\vspace*{0in}
-%\textbf{Prof. Bipin Rajendran}, EE\\
-%Syracuse University, NY, USA & Indian Institute of Technology, Bombay\\
-%\href{mailto:tbujanov@syr.edu}{\textcolor{blue}{E--Mail}} $|$ \href{http://eng-cs.syr.edu/about-the-college/faculty-and-staff/bujanovic}{\textcolor{blue}{Webpage}} & \href{mailto:rajendran.bipin@gmail.com}{\textcolor{blue}{E--Mail}} $|$ \href{https://sites.google.com/site/rajendranbipin/}{\textcolor{blue}{Webpage}}\\
+\textbf{Prof. Suyash Awate}, CSE & \textbf{Prof. Ajit Rajwade}, CSE \\ 
+Indian Institute of Technology, Bombay & Indian Institute of Technology, Bombay \\
+\href{mailto:suyash@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Webpage}} & \href{mailto:ajitvr@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Webpage}} \\
+\vspace{1pt} & \vspace{1pt} \\
+\textbf{Dr. Sebastian Scherer}, Robotics Institute & \textbf{Ashutosh Richhariya}, Ophthalmic Biophysics \\ 
+Carnegie Mellon University & L. V. Prasad Eye Institute \\
+\href{mailto:basti@andrew.cmu.edu}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Webpage}} & \href{mailto:ashutosh@lvpei.org}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.lvpei.org/our-team/our-team-ashutosh.php}{\textcolor{blue}{Webpage}} \\
+\vspace{1pt} & \vspace{1pt} \\
+\textbf{Prof. Mayank Vahia}, Astrophysics & \textbf{Dr. Aniket Sule}, Astronomy \\ 
+Tata Institute of Fundamental Research & Homi Bhabha Center for Science Education \\
+\href{mailto:vahia@tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.tifr.res.in/~vahia/}{\textcolor{blue}{Webpage}} & \href{mailto:anikets@hbcse.tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.hbcse.tifr.res.in/people/academic/aniket-sule}{\textcolor{blue}{Webpage}} \\
 \end{tabular}
 \end{resume}
 \end{document}
