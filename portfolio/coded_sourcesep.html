@@ -85,6 +85,8 @@
                     <div class="section-title text-center wow fadeInDown">
                         <h2>Coded Source Separation for Compressed Video Recovery</h2> 
     		        <br />
+                        <h4>Guide: Prof. Ajit Rajwade, CSE, IIT Bombay</h4> 
+    		        <br />
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
 			Traditional approaches to visual compressed sensing have focused on single image sensing,
 			with compression across space, as opposed to video sensing with compression across time.
@@ -92,7 +94,7 @@
 			below:
 			</p>
     		        <br /><br />
-            	        <center><img src="../img/portfolio/hitdictionary.png" width="700"></center>
+            	        <center><img src="../img/portfolio/hitdictionary.png" width="400"></center>
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
 			However, this approach assumes smoothness of pixel values in video frames across time and
 			a fixed frame–rate. We attempt to solve two problems: relaxing this assumption with a 
@@ -109,15 +111,18 @@
     		        </p>
     		        <br /><br />
             	        <center><img src="../img/portfolio/ourdict.png" height="100"></center>
+    		        <br /><br />
             	        <center><img src="../img/portfolio/ourmeas.png" height="100"></center>
+    		        <br /><br />
             	        <center><img src="../img/portfolio/ourprob.png" height="100"></center>
+    		        <br />
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
 			Guarantees on the success of source separation involve the mutual coherence of the complete
 			dictionary, that is, the product of the sensing matrices and the separate DCT dictionaries.
 			To solve the second problem, we perform an explicit gradient descent on the coherence of the 
 			effective dictionary thus constructed. Further, since this optimization becomes prohibitive
 			with increasing image size, we design matrices that can be tiled for patchwise reconstruction.
-			Details <a target="_blank" href="../sre.pdf">here</a>.
+			(Partial) Details <a target="_blank" href="../sre.pdf">here</a>.
     		        </p>
 		    </div>
                 </div>
