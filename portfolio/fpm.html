@@ -83,38 +83,38 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center wow fadeInDown">
-                        <h2>Image Pixel Based Photometric Redshift Estimation</h2> 
+                        <h2>Super-Resolution with Fourier Ptychographic Microscopy</h2> 
     		        <br />
-                        <h4>Guide: Prof. Robert Brunner, Astronomy, University of Illinois at Urbana&#8212;Champaign</h4> 
+                        <h4>Guide: Ashutosh Ricchariya, Ophthalmic Biophysics, L. V. Prasad Eye Institute, Hyderabad</h4> 
     		        <br />
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
-    		        Current techniques for photometric redshift estimation rely upon reduced integrated information from
-			images. The features used as data in the algorithm are primarily the integrated flux from the object under
-			consideration in various color filters, from which the algorithm calculates the photo-z for the object. The
-			photo-z as an estimate for the actual redshift gives the distance to the object within a certain error. The
-			information that is thus wasted on a pixel level can be made use of in order to get a more accurate estimate
-			of the photo-z of the object.
+			The maximum number of independent samples that an imaging setup can extract from the
+			imaged scene is dictated by the limits set by Fourier optics: if the imaged scene is wide–field,
+			there are limits on how much one can zoom in. However, wide–field, high–resolution images are
+			generally desirable in microscopy, pathology and eye imaging.
 			</p>
+    		        <br /><br />
+            	        <center><img src="../img/portfolio/ptycho_experiment.png" width="400"></center>
     		        <br />
-            	        <center><img src="../img/portfolio/photo_z.png" width="700"></center>
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
-			We created a pipeline that takes raw images from SDSS, processes them to get science frames, extracts source
-			pixels and redshifts for known sources. Then, with the help of this dataset, we train a nearest-neighbor
-			algorithm to predict redshifts and classify into catagories like star, galaxy, QSO and background.
+			The state of the art in acquiring wide-field, high-resolution images is called ptychographic 
+			microscopy, where the imaging setup is zoomed in and images are taken by physically shifting the
+			setup around. The acquired images are stitched in the spatial domain to get the final image. However, this
+			involves complex and precise mechanical control.
 			</p>
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
-			First results from the method are encouraging. Plots of confusion matrices for both problems follow.
+			The way to overcome this is to somehow shift the high-frequency information to low frequencies, 
+			where the system’s optics will not filter it. Then we image the resulting object, and computationally 
+			form the final high-resolution image by ‘stitching together’ the image in Fourier space using a phase
+			retrieval algorithm. The advantage of this method is that we can perform this at low magnifications,
+			still recover very high frequency information and hence acquire the ability to zoom in and see features
+			to good resolution, resulting in a wide-field, high-resolution image. The arrangement is shown below:
     		        </p>
-    		        <br />
-            	        <center><img src="../img/portfolio/photoz-regress.png" width="700"></center>
-    		        <br />
-            	        <center><img src="../img/portfolio/photoz-class.png" width="700"></center>
+    		        <br /><br />
+            	        <center><img src="../img/portfolio/FPM_Setup.jpg" width="700"></center>
     		        <br />
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
-			Previously, we had trained a neural network to do the same thing over integrated sources. We also worked on
-			redshifting spectra of available sources and finding the redshifted band magnitudes to create a nearly 10-fold
-			expanded dataset. We achieved reasonable (~80%) accuracy in predicting redshifts when trained using the expanded 
-			dataset.
+			(Partial) Details <a target="_blank" href="../fpm.pdf">here</a>.
     		        </p>
                     </div>
                 </div>
