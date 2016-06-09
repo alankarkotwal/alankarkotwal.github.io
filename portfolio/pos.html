@@ -83,31 +83,34 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center wow fadeInDown">
-                        <h2>Convex Approximations for Compressed Sensing Recovery</h2> 
+                        <h2>Hidden Markov Model Part-of-Speech Tagging</h2> 
     		        <br />
-                        <h4>Guide: Prof. Ganesh Ramakrishnan, CSE, IIT Bombay</h4> 
+                        <h4>Guide: Prof. Navin Khaneja, EE, IIT Bombay</h4> 
     		        <br />
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
-			Compressed Sensing is a signal processing technique for under-sampling and optimal
-			recovery of a signal, in particular images. It exploits the fact that natural images
-			are sparse in some domain like the Discrete Fourier Transform or Wavelets. The sparsity 
-			of the signal can be exploited via optimization to recover it from far fewer samples than
-			required by the Nyquist-Shannon sampling theorem. The sparsity constraint, however, is of
-			a combinatorial nature and is NP-hard.
+			The aim of the field of Natural Language Processing is to enable text-based 
+			communication between humans and computers. In particular, many challenges in the
+			field focus on language understanding that is, enabling computers to derive meaning
+			from human or natural language input, and others involve natural language generation. 
+			A basic component of language understanding is extracting the role of words used in 
+			the context of a sentence. Parts of speech are a good way to qualify the roles of words
+			in a sentence. Hidden Markov Models (HMMs) are a good solution to this problem because
+			of their ability to model sequential data well. Here are the used Markov chain and
+			example emissions respectively:
 			</p>
     		        <br /><br />
-            	        <center><img src="../img/portfolio/sca.png" width="400"></center>
+            	        <center><img src="../img/portfolio/hmm-trans.png" width="700"></center>
+    		        <br /><br />
+            	        <center><img src="../img/portfolio/hmm-emis.png" width="700"></center>
     		        <br />
                         <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
-			Our approach involves relieving the non-convexity of the constraint by constructing a
-			convex series of approximations to it. This convex series of constraints approaches the
-			non-convex L0 norm constraint as a parameter approaches zero.
+			Using POS tags from the Penn Treebank and simple sentences from the CoNLL 2000 data,
+			we trained a model for POS tagging. Our training dataset had 8637 sentences, spanning 
+			45 POS and 17260 words. We tested the model on a dataset of 1952 sentences, with a 
+			remarkable error rate of 5.17%.
+			Details <a target="_blank" href="../pos.pdf">here</a> and 
+			<a href="../pos-tagging.pptx">here</a>.
 			</p>
-                        <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
-			It can be proved that as t → 0, the solution to this series of convex programs converges 
-			to the solution to the L0 norm optimization problem (see the analysis section
-			<a target="_blank" href="../methods-solving-l0.pdf">here</a>).
-    		        </p>
                     </div>
                 </div>
             </div>
