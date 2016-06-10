@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Always force latest IE rendering engine -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Meta Keyword -->
+        <meta name="keywords" content="one page, business template, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+        <!-- meta character set -->
+        <meta charset="utf-8">
+
+        <!-- Site Title -->
+        <title>Alankar Kotwal</title>
+        
+        <!--
+        Google Fonts
+        ============================================= -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+		
+        <!--
+        CSS
+        ============================================= -->
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="../css/jquery.fancybox.css">
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="../css/owl.carousel.css">
+        <!-- Animate -->
+        <link rel="stylesheet" href="../css/animate.css">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="../css/main.css">
+        <!-- Main Responsive -->
+        <link rel="stylesheet" href="../css/responsive.css">
+		
+		
+	<!-- Modernizer Script for old Browsers -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://fancyapps.com/fancybox/source/jquery.fancybox.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	        $(".iframe").fancybox({
+	            type: 'iframe'
+		});
+	    });
+	</script>
+		
+	<style>
+	.black_overlay{
+	    display: none;
+	    position: absolute;
+	    top: 0%;
+	    left: 0%;
+	    width: 100%;
+	    height: 100%;
+	    background-color: black;
+	    z-index:1001;
+	    -moz-opacity: 0.8;
+	    opacity:.80;
+	    filter: alpha(opacity=80);
+	}
+	.white_content {
+	    display: none;
+	    position: absolute;
+	    top: 25%;
+	    left: 25%;
+	    width: 50%;
+	    height: 50%;
+	    padding: 16px;
+	    border: 16px solid #00C7FC;
+	    background-color: white;
+	    z-index:1002;
+	    overflow: auto;
+	}
+	</style>
+    </head>
+    <body>
+        <br /> <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center wow fadeInDown">
+                        <h2>Finding Gravitational Lenses With PCA</h2> 
+    		        <br />
+                        <h4>Guide: Prof. Suyash Awate and Prof. Ajit Rajwade, CSE, IIT Bombay</h4> 
+    		        <br />
+                        <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
+			Gravitational lensing is one of the most visible implications of Einstein's General Theory
+			of Relativity. This effect predicts that light is bent by graviational fields. In particular,
+			if we have a heavy object in directly front of a source of light in our line of sight, this
+			effect causes ring- and arc-like features like those shown below:
+			</p>
+    		        <br /><br />
+            	        <center><img src="../img/portfolio/lens_intro.png" width="400"></center>
+    		        <br />
+                        <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
+			Our job here is to identify these features without modifying their size and shape. The size and
+			shape of a ring contains vital information about the configuration of the system, especially 
+			the mass of the lens. If our method is to be useful for further processing, we must recover the 
+			arc as it was in the original image. We exploit PCA and the fact that lenses are rare objects in
+			order to efficiently reconstruct the central galaxy, subtract it from the image and get the arc.
+			Some examples of subtracted lenses follow (Left: original, middle: central source only, 
+			right: lens only, contrast-stretched).
+			</p>
+    		        <br />
+            	        <center><img src="../img/portfolio/lens1.png" width="500"></center>
+    		        <br />
+            	        <center><img src="../img/portfolio/lens2.png" width="500"></center>
+			<br />
+                        <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
+			Details <a target="_blank" href="../pca-lens-finder.pdf">here</a>, implementation
+			<a target="_blank" href="http://www.github.com/alankarkotwal/pca-lens-finder">here</a>.
+    		        </p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end .container -->
+    </body>
+</html>
