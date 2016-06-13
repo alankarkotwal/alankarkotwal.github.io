@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  10 JUN 2016 19:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.8.3)  11 JUN 2016 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,22 +397,21 @@ arning (ext4): destination with the same identifier (name{page.}) has been alre
 ady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \section{\sc Course \\Projects}
-                                      [2]pdfTeX warning (ext4): destination wit
-h the same identifier (name{page.}) has been already used, duplicate ignored
+l.148 \begin{list1}
+                    [2]pdfTeX warning (ext4): destination with the same identif
+ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.220 \section{\sc Achievements \\ and Awards}
-                                               [3]pdfTeX warning (ext4): destin
-ation with the same identifier (name{page.}) has been already used, duplicate i
-gnored
+l.228 \begin{list1}
+                    [3]pdfTeX warning (ext4): destination with the same identif
+ier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.296 \section{\sc Technical \\Skills}
-                                       [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
+l.300 \newpage
+               [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 320--338
+Overfull \hbox (18.0pt too wide) in paragraph at lines 343--361
 [][]
  []
 
@@ -420,21 +419,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.338 \end{document}
+l.361 \end{document}
                      [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 338.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 361.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 361.
  ) 
 Here is how much of TeX's memory you used:
  5997 strings out of 493089
  87066 string characters out of 6134843
- 172412 words of memory out of 5000000
+ 173412 words of memory out of 5000000
  9467 multiletter control sequences out of 15000+600000
  6559 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,21p,1515b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,21p,1515b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -444,10 +443,10 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv.pdf (5 pages, 143007 bytes).
+Output written on cv.pdf (5 pages, 145391 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 164 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
