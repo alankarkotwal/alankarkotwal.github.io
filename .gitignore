@@ -1,2 +1,12 @@
 *.DS_Store*
+*.mat
 *.swp
+*.swo
+*.swn
+*~
+
+*.aux
+*.synctex.gz
+*.log
+*.bbl
+*.blg
