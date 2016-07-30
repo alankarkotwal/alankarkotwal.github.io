@@ -5,11 +5,8 @@
 \usepackage{textcomp}
 \usepackage{color}
 \usepackage{lettrine}
-%\usepackage[left=0.75in, right=0.75in, top=0.75in,bottom=0.75in, margin=0.75in]{geometry}
 \oddsidemargin = -.5in
 \evensidemargin = -.5in
-\topmargin = -0.3in
-\textheight = 9.75in
 
 \textwidth = 6.0in
 \itemsep=0in
@@ -60,12 +57,33 @@ Powai, Mumbai, India 400 076 & \multicolumn{1}{r}{\it Webpage:} &\href{http://al
 {\bf \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}}}, Mumbai, India \hfill {\it July 2012 -- Present} \\
 \vspace*{-.1in}
 \begin{list1}
-\item[] Final Year, Dual Degree (Bachelor \& Master of Technology) \\ Department of \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Electrical Engineering}}
+\item[] Final Year, Dual Degree (Bachelor \& Master of Technology), Department of \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Electrical Engineering}}
 \item[] Specialization: {\em Communication and Signal Processing}
 \begin{list2}
 \vspace*{.05in}
 \item \textbf{Major CGPA:}  \ 8.92/10 (\hyperlink{crselst}{\textcolor{blue}{Detailed List of Courses}})
 \item \textbf{Minor Degree:}  Department of \href{http://www.cse.iitb.ac.in/}{\textcolor{blue}{Computer Science \& Engineering}}
+\end{list2}
+\end{list1}
+
+{\bf Ratanbai Walbai Junior Science College}, Mumbai, India \hfill {\it July 2010 -- April 2012} \\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Intermediate Education: Physics, Chemistry and Maths
+\item[] Specialization: {\em Electrical Maintenance}
+\begin{list2}
+\vspace*{.05in}
+\item \textbf{Major CGPA:}  \ 9.38/10
+\end{list2}
+\end{list1}
+
+{\bf Saraswati Vidyalaya High School}, Thane, India \hfill {\it July 2000 -- April 2010} \\
+\vspace*{-.1in}
+\begin{list1}
+\item[] Matriculation
+\begin{list2}
+\vspace*{.05in}
+\item \textbf{Major CGPA:}  \ 9.53/10
 \end{list2}
 \end{list1}
 
@@ -114,12 +132,12 @@ Code \href{https://github.com/alankarkotwal/lvp-imaging/tree/parallel}{\textcolo
 Laparoscopic images in minimally invasive surgery get corrupted by surgical smoke and noise. This degrades the quality of the surgery and the results of further processing for, say, segmentation and tracking. Algorithms for desmoking and denoising laparoscopic images seem to be missing in the medical vision literature. We formulated the problem of joint desmoking and denoising of laparoscopic images as a Bayesian inference problem. This formulation relies on a novel probabilistic graphical model of images, which includes a Markov Random Field (MRF) formulation for color-contrast and another MRF for smoothness on the uncorrupted color image as well as the transmission-map image that indicates color attenuation due to smoke. The results on simulated and real-world laparoscopic images, with clinical expert evaluation, shows the advantages of our method over the state of the art. Code \href{https://github.com/alankarkotwal/lap-dehazing}{\textcolor{blue} {here}}.
 \end{list1}
 
-{\bf Coded Source Separation for Compressed Video Recovery} \hfill \textit{Master's Thesis} \\
+{\bf Coded Source Separation for Compressed Video Recovery} \hfill \textit{Dual Degree Thesis} \\
 {\em Guide: \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE \& \href{https://www.ee.iitb.ac.in/wiki/faculty/rajbabu}{\textcolor{blue}{Prof. V. Rajbabu}}, EE, IITB} \hfill {\it December 2015 -- Present} \\
 \vspace*{-.13in}
 \begin{list1}
 \item[]
-Recent efforts to apply the principles of compressed sensing to video data involve combining frames into coded snapshots while sensing and separating them with an over--complete dictionary. This works well, but needs a dictionary at the same frame--rate and time--smoothness as the video. We try relaxing this constraint using a source--separation approach to this problem where precise error bounds on recovery have been derived. Basis pursuit recovery with Gaussian--random sensing matrices gives excellent results with no ghosting for both similar and radically different images. Unfortunately, the more realizable non--negative sensing matrices don't work as well, because they do not have the nice incoherence properties of Gaussian--random matrices. We aim to design such sensing matrices with low mutual coherence, making them ideal for compressed video. We also aim to design matrices that when rotated circularly, still have low mutual coherence so that they can be tiled for patch-wise reconstruction. We currently explore how better Gershgorin's disk radii, an intermediate step in the coherence bound on restricted isometry constants, and Brauer's ellipse bounds, which are tighter than the Gershgorin bounds, are to optimize on. Code \href{https://bitbucket.org/alankarkotwal/coded-sourcesep}{\textcolor{blue} {here}}.
+Recent efforts to apply the principles of compressed sensing to video data involve combining frames into coded snapshots while sensing and separating them with an over--complete dictionary. This works well, but needs a dictionary at the same frame--rate and time--smoothness as the video. We try relaxing this constraint using a source--separation approach to this problem where precise error bounds on recovery have been derived. Basis pursuit recovery with Gaussian--random sensing matrices gives excellent results with no ghosting for both similar and radically different images. Unfortunately, the more realizable non--negative sensing matrices don't work as well, because they do not have the nice incoherence properties of Gaussian--random matrices. We aim to design such sensing matrices with low mutual coherence, making them ideal for compressed video. We also aim to design matrices that when rotated circularly, still have low mutual coherence so that they can be tiled for patch-wise reconstruction. Code \href{https://bitbucket.org/alankarkotwal/coded-sourcesep}{\textcolor{blue} {here}}.
 \end{list1}
 
 {\bf The IITB Mars Rover Project}
@@ -182,7 +200,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{https://www.ee.iitb.ac.in/~viren/}{\textcolor{blue}{Prof. Virendra Singh}}, EE, IITB \hfill Autumn 2014-15} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] We designed, simulated and implemented a \href{https://github.com/alankarkotwal/lc-3b-processor}{\textcolor{blue} {multi-cycle RISC processor}} following the LC-3b ISA. Also, we designed and simulated a \href{https://github.com/alankarkotwal/lca-processor}{\textcolor{blue} {pipelined RISC processor}} using the Little Computer ISA.
+\item[] We designed, simulated and implemented (on a DE0-Nano board from Terasic) a \href{https://github.com/alankarkotwal/lc-3b-processor}{\textcolor{blue} {multi-cycle RISC processor}} following the LC-3b ISA. Following this, we designed and simulated a \href{https://github.com/alankarkotwal/lca-processor}{\textcolor{blue} {pipelined RISC processor}} using the Little Computer Architecture.
 \end{list1}
 
 \section{\sc Astrophysics \\Projects}
@@ -208,7 +226,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em Guide: \href{http://cbs.ac.in/people/visiting-scientists/manojendu-choudhury}{\textcolor{blue}{Prof. Manojendu Choudhury}}, \href{http://cbs.ac.in/}{\textcolor{blue} {Center for Basic Sciences}} \hfill December 2013} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] We analyzed data from the RXTE for a low-mass X-Ray Binary. Fitting 3-30 keV spectra with a model accounting for blackbody \& non-thermal radiation, and interstellar extinction, we obtained values of system parameters like internal radius and temperature. Report \href{https://alankarkotwal.github.io/4U_1630-47_Report.pdf}{\textcolor{blue} {here}}.
+\item[] We analyzed spectral data from the RXTE for the low-mass X-Ray Binary 4U 1630-47, for an outburst in the source. We extracted 3-30 keV spectra and fit them with a model accounting for disk blackbody radiation, non-thermal power-law radiation, and interstellar extinction. We obtained best fit values of system parameters like internal radius and temperature. Report \href{https://alankarkotwal.github.io/4U_1630-47_Report.pdf}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -222,15 +240,22 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 
 \section{\sc Achievements \\ and Awards}
 \begin{list2}
+\item[\strut\hspace{0.5cm}\textbf{Olympiads and Competitive Exams}]
 \item Represented India at the \href{http://www.ioaa2012.ufrj.br/}{\textcolor{blue} {$6^\text{th}$ International Olympiad on Astronomy and Astrophysics}}, Brazil, 2012. Won a Gold Medal with International Rank 4 and a special prize for Best Data Analysis
 \item Represented India at the \href{http://www.ieso2011.unimore.it/}{\textcolor{blue} {$5^\text{th}$ International Earth Sciences Olympiad}}, Italy, 2011. Won a Bronze Medal and prizes for best performance in the Hydrosphere section and the team presentation
 \item  Secured all-India rank $105$ in the \href{https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Joint_Entrance_Examination}{\textcolor{blue}{IIT-JEE}} 2012 amongst half a million candidates
+\vspace{0.05in}
+\item[\strut\hspace{0.5cm}\textbf{Scholarships}]
 \item Awarded \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{KVPY Scholarship}} $2011$ by Dept. of Science and Technology, Govt. of India
 \item Awarded \href{http://www.ncert.nic.in/programmes/talent_exam/index_talent.html}{\textcolor{blue}{NTSE Scholarship}} $2008$ by NCERT, Govt. of India
+\vspace{0.05in}
+\item[\strut\hspace{0.5cm}\textbf{Competitions}]
+\item Secured IIT Bombay the second position by putting on board 72 Messier objects including the entire Virgo cluster of galaxies in the \href[page=2]{https://www.iitbombay.org/iitb_dean_acr/february-newsletter-2014/2nd\%20Annual\%20Inter.pdf}{\textcolor{blue} {Inter-IIT Messier Marathon, 2014}}
+%\item Won the Astronomy Quiz conducted by the Astronomy Club, IIT Bombay, 2012
 \end{list2}
 
 \section{\sc Key Talks \\ and Seminars}
-{\bf Coded Source Separation for Compressed Video Recovery} \hfill {\em Master's Thesis Talk} \\
+{\bf Coded Source Separation for Compressed Video Recovery} \hfill {\em Dual Degree Thesis Talk} \\
 {\em \href{http://www.ee.iitb.ac.in/}{\textcolor{blue}{Department of Electrical Engineering}}, \href{http://www.iitb.ac.in/}{\textcolor{blue}{Indian Institute of Technology Bombay}} \hfill May 2016} \\
 \vspace*{-.15in}
 \begin{list1}
@@ -243,7 +268,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em \href{http://theairlab.org/}{\textcolor{blue}{The AIR Lab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}} \hfill July 2015} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] I presented results of summer internship at CMU. The talk included a detailed description of the method used, comparisons with ground-truth and stress-tests on the method. Presentation \href{http://alankarkotwal.github.io/intern_presentation.pptx}{\textcolor{blue} {here}}.
+\item[] Here, I presented results from my 2015 summer internship to my group at Carnegie Mellon University. The talk included a detailed description of the method used, comparisons of the results with ground-truth and stress-tests on the method. Presentation \href{http://alankarkotwal.github.io/intern_presentation.pptx}{\textcolor{blue} {here}}.
 \end{list1}
 
 \vspace*{-0.1in}
@@ -252,7 +277,7 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 {\em \href{http://www.stab-iitb.org/krittika/}{\textcolor{blue} {Krittika -- The Astronomy Club, IIT Bombay}} \hfill September 2014, February 2016} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] This talk climbs the Cosmic Distance Ladder, a sequence of steps, each building on previous steps' results, for calculating distances in the universe. We begin with solar system distances, and end at enormous distances where the only option is using indirect methods. Presentation \href{http://alankarkotwal.github.io/CosmicDistanceLadder.pptx}{\textcolor{blue} {here}}.
+\item[] This open-to-all popular talk climbs the Cosmic Distance Ladder, a sequence of steps, each building on the previous step's results, for calculating distances in the universe. We begin with solar system distances, and end at enormous distances where the only option is using indirect methods like photometric redshifts. Presentation \href{http://alankarkotwal.github.io/CosmicDistanceLadder.pptx}{\textcolor{blue} {here}}.
 \end{list1}
 
 \section{\sc Mentoring Experience}
@@ -268,19 +293,28 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \textbf{Resource Person, Indian Astronomy Olympiad Programme} \hfill \textit{May 2013, May 2014} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] Selected twice as a resource person for Indian Astronomy Olympiad Camps, to mentor students for their selection to the International Astronomy Olympiads. Involved in mentoring 100-odd high school students in astronomy, and in setting up challenging questions and evaluating them.
+\item[] Selected twice as a resource person for Indian Astronomy Olympiad Camps, to mentor students for their selection to the International Astronomy Olympiads. Involved in mentoring students ranging from the $9^\text{th}$ to the $12^\text{th}$ grades in Astronomy, and in setting up challenging questions and evaluating them.
+\end{list1}
+
+\vspace*{-0.1in}
+
+\newpage
+\textbf{Technical Mentor}\hfill \textit{April 2013 -- March 2014} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Mentored $1^\text{st}$ year students for Robotics Competitions and contributed towards generation of ideas and debugging for Institute Technical Summer Projects. Member of the Electronics club.
 \end{list1}
 
 \section{\sc Key \\Coursework} 
 \begin{list1}
 \item[\strut\hspace{0.5cm}\hypertarget{crselst}{\textbf{Computer Sciences and Engineering}}]
-\item[]\textit{Computer Vision, Digital \& Medical Image Processing, Machine Learning, Convex Optimization, Graphics, Networks, Data Structures, Design \& Analysis of Algorithms, Discrete Mathematics}
+\item[]\textit{Computer Vision, Medical Image Processing, Digital Image Processing, Machine Learning, Convex Optimization, Graphics, Networks, Data Structures, Algorithms, Discrete Mathematics}
 \item[\strut\hspace{0.5cm}\textbf{Electrical Engineering}]
 \vspace{0.05in}
-\item[]\textit{Estimation \& Identification, Adaptive \& Digital Signal Processing, Speech Processing, Matrix Computations, Information Theory, Advanced Probability, Communication Networks}
+\item[]\textit{Estimation and Identification, Adaptive Signal Processing, Digital Signal Processing, Speech Processing, Matrix Computations, Information Theory, Advanced Probability and Random Processes, Communication Networks and Systems, Microprocessors, Signals and Systems, Digital and Analog Systems, Electronic Devices and Circuits, Network Theory}
 \item[\strut\hspace{0.5cm}\textbf{Physics and Mathematics}]
 \vspace{0.05in}
-\item[]\textit{Astrophysics, General Theory of Relativity, Electromagnetic Waves, Electricity \& Magnetism, Classical Mechanics, Differential Equations, Linear Algebra, Complex Analysis, Calculus}
+\item[]\textit{Astrophysics, The General Theory of Relativity, Electromagnetic Waves, Electricity \& Magnetism, Classical Mechanics, Differential Equations, Linear Algebra, Complex Analysis, Calculus}
 \end{list1}
 
 \section{\sc Technical \\Skills} 
@@ -289,49 +323,40 @@ The IITB Mars Rover project is a student initiative at IIT Bombay to build a pro
 \vspace*{-0.06in}
 \textbf{Software Packages} & 
 \vspace*{-0.06in}
-ROS/Gazebo, OpenCV, The Point Cloud Library \\ 
+ROS/Gazebo, OpenCV, The Point Cloud Library, SPICE Circuit Simulation, EAGLE PCB Design, SolidWorks, AutoCAD, LabView\\ 
 \vspace*{-0.06in}
 \textbf{Science Software} &
 \vspace*{-0.06in}
-Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn \\
+Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn, Astropy, SDSS tools \\
 \vspace*{-0.06in}
 \textbf{Hardware} &
 \vspace*{-0.06in}
-\textit{Microprocessors:} 8051, 8085, AVR and PIC, CPLDs and FPGAs, \textit{Embedded Platforms:} Arduino, Raspberry Pi, NVIDIA Jetson TK1 \\     
+\textit{Microprocessors:} 8051, 8085, AVR and PIC, CPLDs and FPGAs, \textit{Embedded Platforms:} Arduino, Raspberry Pi, NVIDIA Jetson TK1 \textit{standard digital logic families} \\     
 \end{tabular}
+
+\section{\sc Languages}
+English, Hindi (working knowledge), Marathi (first language), Sanskrit (elementary knowledge)
 
 \section{\sc Other \\Interests}
-\lettrine[lines=2]{O}{ther} than my academic interests, I like biking, long walks, trekking, climbing whatever can be climbed, swimming, table tennis, socializing, cooking good food and eating it. I especially enjoy classic rock music \& people who enjoy my interests. And finally, I love Origami, the art of paper folding, and building complex, realistic models with Lego blocks.
+\lettrine[lines=2]{O}{ther} than my academic interests, I like biking, long walks, trekking, climbing whatever can be climbed, swimming, playing table tennis, socializing, cooking good food and eating it. I especially enjoy classic rock music and people who enjoy my interests. I enjoy design and like making things look and feel good. And finally, I love Origami, the art of paper folding, and building complex, realistic models with Lego blocks.
 
-\section{\sc References}
+\section{\sc References} 
 \begin{tabular}{@{}p{3in}p{3in}}
 \textbf{Prof. Suyash Awate}, CSE & \textbf{Prof. Ajit Rajwade}, CSE \\ 
-IITB $|$ \href{mailto:suyash@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Webpage}} & IITB $|$ \href{mailto:ajitvr@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Webpage}} \\
-\end{tabular}
-\vspace{-0.15in}
-
-\begin{tabular}{@{}p{3in}p{3in}}
+Indian Institute of Technology, Bombay & Indian Institute of Technology, Bombay \\
+\href{mailto:suyash@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Webpage}} & \href{mailto:ajitvr@cse.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Webpage}} \\
+\vspace{1pt} & \vspace{1pt} \\
 \textbf{Dr. Sebastian Scherer}, Robotics Institute & \textbf{Ashutosh Richhariya}, Ophthalmic Biophysics \\ 
-CMU $|$ \href{mailto:basti@andrew.cmu.edu}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Webpage}} & LVPEI $|$ \href{mailto:ashutosh@lvpei.org}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.lvpei.org/our-team/our-team-ashutosh.php}{\textcolor{blue}{Webpage}} \\
+Carnegie Mellon University & L. V. Prasad Eye Institute \\
+\href{mailto:basti@andrew.cmu.edu}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Webpage}} & \href{mailto:ashutosh@lvpei.org}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.lvpei.org/our-team/our-team-ashutosh.php}{\textcolor{blue}{Webpage}} \\
+\vspace{1pt} & \vspace{1pt} \\
+\textbf{Prof. Mayank Vahia}, Astrophysics & \textbf{Dr. Aniket Sule}, Astronomy \\ 
+Tata Institute of Fundamental Research & Homi Bhabha Center for Science Education \\
+\href{mailto:vahia@tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.tifr.res.in/~vahia/}{\textcolor{blue}{Webpage}} & \href{mailto:anikets@hbcse.tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.hbcse.tifr.res.in/people/academic/aniket-sule}{\textcolor{blue}{Webpage}} \\
+\vspace{1pt} & \vspace{1pt} \\
+\textbf{Prof. Rajbabu Velmurugan}, EE & \textbf{Dr. Manojendu Choudhury}, Astrophysics \\ 
+Indian Institute of Technology, Bombay & Center for Excellence in Basic Sciences \\
+\href{mailto:rajbabu@ee.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.ee.iitb.ac.in/web/faculty/homepage/rajbabu}{\textcolor{blue}{Webpage}} & \href{mailto:manojendu@cbs.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.cbs.ac.in/people/physics-faculty/manojendu-choudhury}{\textcolor{blue}{Webpage}} \\
 \end{tabular}
-\vspace{-0.15in}
-
-\begin{tabular}{@{}p{3in}p{3in}}
-\textbf{Prof. Mayank Vahia}, Astrophysics & \textbf{Dr. Aniket Sule}, Astronomy \\
-TIFR $|$ \href{mailto:vahia@tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.tifr.res.in/~vahia/}{\textcolor{blue}{Webpage}} & HBCSE--TIFR $|$ \href{mailto:anikets@hbcse.tifr.res.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.hbcse.tifr.res.in/people/academic/aniket-sule}{\textcolor{blue}{Webpage}} \\
-\end{tabular}
-\vspace{-0.15in}
-
-\begin{tabular}{@{}p{3in}p{3in}}
-\textbf{Prof. Rajbabu Velmurugan}, EE & \textbf{Dr. Manojendu Choudhury}, Astrophysics \\
-IITB $|$ \href{mailto:rajbabu@ee.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.ee.iitb.ac.in/web/faculty/homepage/rajbabu}{\textcolor{blue}{Webpage}} & UM--DAE CBS $|$ \href{mailto:manojendu@cbs.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.cbs.ac.in/people/physics-faculty/manojendu-choudhury}{\textcolor{blue}{Webpage}} \\
-\end{tabular}
-\vspace{-0.15in}
-
-%\begin{tabular}{@{}p{3in}p{3in}}
-%\textbf{Prof. Rajbabu Velmurugan}, EE & \textbf{Dr. Manojendu Choudhury}, Astrophysics \\
-%IITB $|$ \href{mailto:rajbabu@ee.iitb.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{https://www.ee.iitb.ac.in/web/faculty/homepage/rajbabu}{\textcolor{blue}{Webpage}} & UM--DAE CBS $|$ \href{mailto:manojendu@cbs.ac.in}{\textcolor{blue}{E--Mail}} $|$ \href{http://www.cbs.ac.in/people/physics-faculty/manojendu-choudhury}{\textcolor{blue}{Webpage}} \\
-%\end{tabular}
-
 \end{resume}
 \end{document}
