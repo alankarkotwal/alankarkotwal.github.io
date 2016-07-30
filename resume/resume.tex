@@ -4,11 +4,11 @@
 \usepackage{amsmath}
 \usepackage{textcomp}
 \usepackage{color}
-\oddsidemargin -.5in
-\evensidemargin -.5in
-\topmargin -0.3in
-\textheight 9.5in
-\textwidth=6.0in
+\oddsidemargin = -.5in
+\evensidemargin = -.5in
+\topmargin = -0.3in
+\textheight = 9.75in
+\textwidth=6.15in
 \itemsep=0in
 \parsep=0in
 % if using pdflatex:
@@ -26,7 +26,7 @@
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+      \setlength{\leftmargin}{0.18in}}}{\end{list}}
 
 \tolerance=1
 \emergencystretch=\maxdimen
@@ -69,7 +69,7 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 \section{\sc Publications}
 \begin{list2}
 \item Kotwal, A., Bhalodia, R., Awate, S., {\em Joint Desmoking and Denoising of Laparoscopy Images} (oral), Proc. of the \href{http://biomedicalimaging.org/2016/}{\textcolor{blue} {International Symposium on Biomedical Imaging}}, 2016. Paper \href{http://alankarkotwal.github.io/pubs/lap-dehazing.pdf}{\textcolor{blue} {here}}.
-\item Clarke, J. D. A., Held, J. M., Dahl, A. {\em et al.}, {\em Field Robotics, Astrobiology and Mars Analogue Research on the Arkaroola Mars Robot Challenge Expedition}, Proc. of the \href{http://www.nssa.com.au/14asrc/14ASRC-proceedings.zip}{\textcolor{blue} {14th Australian Space Research Conference}}, 2014. Paper \href{http://alankarkotwal.github.io/pubs/Arkaroola.pdf}{\textcolor{blue} {here}}.
+\item Clarke, J. {\em et al.}, {\em Field Robotics, Astrobiology and Mars Analogue Research on the Arkaroola Mars Robot Challenge Expedition}, Proc. of the \href{http://www.nssa.com.au/14asrc/14ASRC-proceedings.zip}{\textcolor{blue} {Australian Space Research Conference}}, 2014. Paper \href{http://alankarkotwal.github.io/pubs/Arkaroola.pdf}{\textcolor{blue} {here}}.
 \end{list2}
 
 \vspace*{-0.13in}
@@ -79,12 +79,11 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 {\bf  \href{http://theairlab.org/}{\textcolor{blue}{The AIR Lab}}, \href{http://www.cmu.edu/}{\textcolor{blue}{Carnegie Mellon University}} \href{http://ri.cmu.edu/}{\textcolor{blue}{Robotics Institute}}} \\
 {\em Guide: \href{http://www.ri.cmu.edu/person.html?person_id=1397}{\textcolor{blue}{Prof. Sebastian Scherer}} \& \href{http://www.ri.cmu.edu/person.html?person_id=2128}{\textcolor{blue} {Stephen Nuske}}}\hfill\textit{Summer 2015} \\
 \vspace*{-.13in}
-\textbf{Stereo Odometry From A Downward-Facing Stereo Camera On A Vehicle} \\
+\textbf{Stereo Odometry from a Downward-facing Stereo Camera on an Aerial Vehicle} \\
 \vspace*{-.01in}
 \begin{list2}
 \item Developed correlation-based tracking for aerial vehicles with a downward-facing stereo camera
-\item Estimated height, pitch and roll jointly using a robust gradient-descent homography fit between stereo pairs, and position with rigid tracking across frames
-\item Achieved performance comparable to, maximum speeds and height ranges better than the standard Pixhawk PX4FLOW camera without an inertial unit
+\item Estimated height, pitch and roll jointly using a robust gradient-descent homography fit between stereo pairs, and position with rigid tracking across frames \& achieved performance comparable to, maximum speeds and height ranges better than the Pixhawk camera without an inertial unit
 \end{list2}
 
 \vspace*{-0.13in}
@@ -92,19 +91,30 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 {\bf \href{http://lcdm.astro.illinois.edu/}{\textcolor{blue} {Laboratory for Cosmological Data Mining}}, \href{http://www.illinois.edu/}{\textcolor{blue}{University of Illinois, Urbana--Champaign}}} \\
 {\em Guide: \href{http://www.astro.illinois.edu/people/bigdog}{\textcolor{blue}{Prof. Robert Brunner}}, under \href{https://www.google-melange.com/gsoc/homepage/google/gsoc2014}{\textcolor{blue} {Google Summer of Code}}} \hfill {\it Summer 2014} \\
 \vspace*{-.13in}
-\textbf{A Pixel-Level Machine Learning Method for Calculating Source Redshifts} \\
+\textbf{A Pixel-Level Machine Learning Method for Calculating Photometric Redshifts} \\
 \vspace*{-.01in}
 \begin{list2}
-\item Used broad-band pixel energies from faint sources extracted from SDSS (as a proxy to their entire spectrum) as features for a machine learning algorithm to calculate redshifts
+\item Used broad-band pixel flux extracted from SDSS in a machine learning algorithm for redshifts
 \item Accomplished classification of sources into galaxies, stars and background based on pixel features
 \item Worked on creating an image extraction, alignment, cleaning, segmentation and learning pipeline on SDSS images and on performance improvement and got a reasonably good error rate
 \end{list2}
 
 \vspace*{-0.13in}
 
+{\bf Srujana -- Center for Innovation, \href{http://www.lvpei.org/}{\textcolor{blue}{L. V. Prasad Eye Institute}}} \\
+{\em Guide: \href{http://www.lvpei.org/our-team/our-team-ashutosh.php}{\textcolor{blue}{Ashutosh Richhariya}}, Ophthalmic Biophysics, LVPEI} \hfill {\it Winter 2014} \\
+\vspace*{-.13in}
+\textbf{Super--Resolution with Fourier Ptychographic Microscopy} \\
+\begin{list2}
+\item Worked on understanding and implementing Fourier Ptychographic Microscopy for microscopy slides
+\item Analyzed possible extensions of this method to imaging reflective surfaces like the eye
+\end{list2}
+
+\vspace*{-0.13in}
+
 \section{\sc Research Projects}
 
-{\bf A New Bayesian Framework For Laparoscopic Image Dehazing and Denoising} \\
+{\bf A New Bayesian Framework for Laparoscopic Image Dehazing and Denoising} \\
 {\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB} \hfill {\it January 2015 -- Present} \\
 \vspace*{-.13in}
 \begin{list2}
@@ -115,13 +125,13 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 
 \vspace*{-0.13in}
 
-{\bf Coded Source Separation for Compressed Video Recovery} \hfill \textit{Dual Degree Thesis} \\
+{\bf Coded Source Separation for Compressed Video Recovery} \hfill \textit{Master's Thesis} \\
 {\em Guide: \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE \& \href{https://www.ee.iitb.ac.in/wiki/faculty/rajbabu}{\textcolor{blue}{Prof. V. Rajbabu}}, EE, IITB} \hfill {\it December 2015 -- Present} \\
 \vspace*{-.13in}
 \begin{list2}
 \item Studied applications of the principles of compressed sensing to video for compression along time
-\item Currently trying to relax the requirement of a dictionary on both space and time and the requirement of strictly smooth motion using a source--separation approach to this problem
-\item Aim to design positive [0, 1]--uniform sensing matrices with low mutual coherence, making them ideal for compressed video using the source--separation approach
+\item Relaxed the need for a dictionary on space and time and strictly smooth motion using a source--separation approach and designed positive sensing matrices with low mutual coherence for this
+\item Currently optimizing upper bounds tighter than coherence on the restricted isometry constant and improving reconstruction bounds with partially known support
 \end{list2}
 
 \vspace*{-0.13in}
@@ -158,7 +168,7 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 
 \vspace*{-0.13in}
 
-{\bf Laparoscopic Image Dehazing With Dark Channel Prior} \hfill \textit{CS736: Medical Image Processing} \\
+{\bf Laparoscopic Image Dehazing with Dark Channel Prior} \hfill \textit{CS736: Medical Image Processing} \\
 {\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}}, CSE, IITB \hfill Spring 2014-15} \\
 \vspace*{-.15in}
 \begin{list1}
@@ -167,7 +177,7 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 
 \vspace*{-0.13in}
 
-{\bf Stereo Odometry Via Point Cloud Registration} \hfill \textit{CS763: Computer Vision} \\
+{\bf Stereo Odometry via Point Cloud Registration} \hfill \textit{CS763: Computer Vision} \\
 {\em Guide: \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE, IITB \hfill Spring 2014-15} \\
 \vspace*{-.15in}
 \begin{list1}
@@ -176,11 +186,11 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 
 \vspace*{-0.13in}
 
-{\bf Gravitational Lens Separation With PCA} \hfill \textit{CS663: Digital Image Processing} \\
+{\bf Gravitational Lens Separation with PCA} \hfill \textit{CS663: Digital Image Processing} \\
 {\em Guide: \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. Suyash Awate}} \& \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. Ajit Rajwade}}, CSE, IITB \hfill Autumn 2014-15} \\
 \vspace*{-.15in}
 \begin{list1}
-\item[] Gravitationally lensed images of galaxies have rare arc-like artifacts that can be used to calculate the mass of the lens. We used Anscombe denoising followed by PCA to build a basis for galaxy images and used the top few eigengalaxies to subtract sources and detect arcs.
+\item[] Lensed images of galaxies have rare arc-like artifacts that can be used to calculate the mass of the lens. We used Anscombe denoising followed by PCA to subtract sources and detect arcs.
 \end{list1}
 
 \vspace*{-0.13in}
@@ -233,14 +243,10 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 
 \section{\sc Achievements \\and Awards}
 \begin{list2}
-\item[\strut\hspace{0.5cm}\textbf{Olympiads and Competitive Exams}]
 \item Represented India at the \href{http://www.ioaa2012.ufrj.br/}{\textcolor{blue} {$6^{th}$ International Olympiad on Astronomy and Astrophysics}}, Brazil, 2012. Won a Gold Medal with International Rank 4 and a special prize for Best Data Analysis
 \item Represented India at the \href{http://www.ieso2011.unimore.it/}{\textcolor{blue} {$5^{th}$ International Earth Sciences Olympiad}}, Italy, 2011. Won a Bronze Medal and prizes for best performance in the Hydrosphere section and the team presentation
-\item  Secured All India Rank (AIR) $105$ in \href{https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Joint_Entrance_Examination}{\textcolor{blue}{IIT-JEE}} amongst $1.1$ million candidates
-\vspace{0.05in}
-\item[\strut\hspace{0.5cm}\textbf{Scholarships}]
-\item Awarded \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{KVPY Scholarship}} $2011$ by Dept. of Science and Technology, Govt. of India
-\item Awarded \href{http://www.ncert.nic.in/programmes/talent_exam/index_talent.html}{\textcolor{blue}{NTSE Scholarship}} $2008$ by NCERT, Govt. of India
+\item  Secured All India Rank (AIR) $105$ in \href{https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Joint_Entrance_Examination}{\textcolor{blue}{IIT-JEE}} amongst half a million candidates
+\item Awarded \href{http://www.kvpy.iisc.ernet.in/main/index.htm}{\textcolor{blue}{KVPY Scholarship}} $2011$ and \href{http://www.ncert.nic.in/programmes/talent_exam/index_talent.html}{\textcolor{blue}{NTSE Scholarship}} $2008$ by the Govt. of India
 %\item[\strut\hspace{0.5cm}\textbf{Competitions}]
 %\item Secured IIT Bombay the second position by putting on board 72 Messier objects including the entire Virgo cluster of galaxies in the \href[page=2]{https://www.iitbombay.org/iitb_dean_acr/february-newsletter-2014/2nd\%20Annual\%20Inter.pdf}{\textcolor{blue} {Inter-IIT Messier Marathon, 2014}}
 %\item Won the Astronomy Quiz conducted by the Astronomy Club, IIT Bombay, 2012
@@ -265,20 +271,23 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 %\end{list1}
 
 
-%\section{\sc Mentoring Experience}
-%\textbf{Teaching Assistant}
-%\begin{list1}
-%\item[]CS663: Digital Image Processing \hspace{0.5cm} \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. S. Awate}} and \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. A. Rajwade}} \hfill{\textit{Autumn 2015-16}}
-%\item[]CS736: Medical Image Processing \hspace{2cm} \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. S. Awate}}\hfill{\textit{Spring 2015-16}}
-%\end{list1}
-%
-%\vspace*{-0.1in}
-%
-%\textbf{Resource Person, Indian Astronomy Olympiad Programme} \hfill \textit{May 2013, May 2014} \\
-%\vspace*{-.15in}
-%\begin{list1}
-%\item[] Selected twice as a resource person for the Indian Astronomy Olympiad Camp, for their selection to the international Astronomy Olympiads. Involved in mentoring students ranging from the $9^{th}$ to the $12^{th}$ grades in Astronomy, and in setting up challenging questions and evaluating students.
-%\end{list1}
+\section{\sc Mentoring Experience}
+\textbf{Teaching Assistant}
+\begin{list1}
+\item[] CS663: Digital Image Processing \hspace{0.5cm} \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. S. Awate}} and \href{https://www.cse.iitb.ac.in/~ajitvr}{\textcolor{blue}{Prof. A. Rajwade}} \hfill{\textit{Autumn 2015-16}}
+\item[] CS736: Medical Image Processing \hspace{2cm} \href{https://www.cse.iitb.ac.in/~suyash}{\textcolor{blue}{Prof. S. Awate}}\hfill{\textit{Spring 2015-16}}
+\item[] EE638: Estimation and Identification \hspace{1.25cm} \href{https://www.ee.iitb.ac.in/course/~ee638/Navin}{\textcolor{blue}{Prof. N. Khaneja}}\hfill{\textit{Autumn 2016-17}}
+\end{list1}
+
+\vspace*{-0.1in}
+
+\textbf{Resource Person, Indian Astronomy Olympiad Programme} \hfill \textit{May 2013, May 2014} \\
+\vspace*{-.15in}
+\begin{list1}
+\item[] Involved in mentoring high-school students in Astronomy for their selection to the international Astronomy Olympiads, and in setting up challenging questions and evaluating students.
+\end{list1}
+
+\vspace*{-0.1in}
 
 %\section{\sc Key \\Coursework} 
 %\begin{list1}
@@ -298,15 +307,15 @@ I am passionate about Computer and Medical Vision, Machine Learning, Optimizatio
 \vspace*{-0.06in}
 \textbf{Software Packages} & 
 \vspace*{-0.06in}
-ROS/Gazebo, OpenCV, The Point Cloud Library, SPICE Circuit Simulation, EAGLE PCB Design, SolidWorks, AutoCAD, LabView\\ 
+ROS/Gazebo, OpenCV, The Point Cloud Library \\ 
 \vspace*{-0.06in}
 \textbf{Science Software} &
 \vspace*{-0.06in}
-Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn, Astropy, SExtractor, SDSS tools \\
+Python packages: NumPy, SciPy and Matplotlib, GNUPlot, Scikit-learn \\
 \vspace*{-0.06in}
 \textbf{Hardware} &
 \vspace*{-0.06in}
-\textit{Microprocessors:} 8051, 8085, AVR and PIC, CPLDs and FPGAs, \textit{Embedded Platforms:} Arduino, RaspberryPi, \textit{standard digital logic} \\     
+Common Microprocessors, CPLDs and FPGAs, Embedded Platforms \\  
 \end{tabular}
 %
 %\section{\sc Other \\Interests}
