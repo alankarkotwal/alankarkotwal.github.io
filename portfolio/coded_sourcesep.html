@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center wow fadeInDown">
-                        <h2>Coded Source Separation for Compressed Video Recovery</h2> 
+                        <h2>Optimizing Sensing Matrices for Compressed Sampling Recovery</h2> 
     		        <br />
                         <h4>Guide: Prof. Ajit Rajwade, CSE, IIT Bombay</h4> 
     		        <br />
@@ -121,11 +121,19 @@
 			dictionary, that is, the product of the sensing matrices and the separate DCT dictionaries.
 			To solve the second problem, we perform an explicit gradient descent on the coherence of the 
 			effective dictionary thus constructed. Further, since this optimization becomes prohibitive
-			with increasing image size, we design matrices that can be tiled for patchwise reconstruction.
-			More details <a target="_blank" href="../pubs/optcodes_coh.pdf">here</a>,
+			with increasing image size, we design matrices that have low mutual coherence in all their
+            circular permutations and therefore can be tiled for overlapping patchwise reconstruction.
+			More details <a target="_blank" href="../pubs/icassp17s.pdf">here</a>,
 			implementation <a target="_blank" href="http://www.bitbucket.org/alankarkotwal/coded-sourcesep">here</a>
             (private for now, to be released soon).
     		        </p>
+                    <p style="FONT-SIZE:16px; COLOR:black; LINE-HEIGHT:20px; TEXT-ALIGN:justify;">
+                     We currently aim to design general sensing matrices with quantities that yield tighter
+                     error bounds than coherence. We thus explore bounds (like the l1–CSMV and l∞–based bounds)
+                     which ‘soften’ the sparsity criterion for l1 recovery, resulting in quantities verifiable
+                     in polynomial time, as opposed to the RIC bound which is combinatorial and therefore difficult
+                     to optimize.
+                    </p>
 		    </div>
                 </div>
             </div>
